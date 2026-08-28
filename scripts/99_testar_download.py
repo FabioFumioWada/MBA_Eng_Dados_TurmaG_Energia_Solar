@@ -18,7 +18,7 @@ URL = (
 # DESTINO = Path("/dbfs/FileStore/testes/teste_bandeira_tarifaria.csv")
 # ou:
 
-DESTINO = Path("/Volumes/mba/energia/raw/teste_bandeira_tarifaria.csv")
+DESTINO = Path("/Volumes/mba/stage/dados_bruto/teste_bandeira_tarifaria.csv")
 
 
 def main() -> None:
