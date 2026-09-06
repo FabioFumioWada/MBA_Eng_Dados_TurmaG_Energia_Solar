@@ -17,6 +17,12 @@
 # MAGIC O servidor do INMET derruba a conexão quando o pedido não tem um cabeçalho de `User-Agent`
 # MAGIC de navegador, por isso simulamos aqui um pedido normal de navegador, igual ao que acontece
 # MAGIC quando você clica no link do site.
+# MAGIC
+# MAGIC ### Extensão de profundidade histórica (2026-09)
+# MAGIC
+# MAGIC Lista `ANOS` estendida de 2024-2026 para 2016-2026 (10 anos), a pedido da usuária, para
+# MAGIC dar mais robustez às futuras análises de correlação/modelo preditivo. Anos 2024-2026 já
+# MAGIC estavam baixados e não são baixados de novo aqui.
 
 # COMMAND ----------
 
@@ -26,7 +32,7 @@ import requests
 # ============================================================
 # CONFIGURAÇÕES
 # ============================================================
-ANOS = [2024, 2025, 2026]
+ANOS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
 
 URL_ZIP_ANO = "https://portal.inmet.gov.br/uploads/dadoshistoricos/{ano}.zip"
 
