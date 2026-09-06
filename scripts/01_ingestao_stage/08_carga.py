@@ -6,7 +6,7 @@
 # MAGIC
 # MAGIC Baixar os arquivos **CSV anuais** de Carga de Energia diária por subsistema, direto do
 # MAGIC portal de Dados Abertos do ONS, e salvar no Volume da camada `stage`, **sem nenhuma
-# MAGIC alteração** — exatamente como chegam da fonte (mesmo padrão usado para os outros
+# MAGIC alteração** exatamente como chegam da fonte (mesmo padrão usado para os outros
 # MAGIC datasets desta camada).
 # MAGIC
 # MAGIC **Fonte:** https://dados.ons.org.br/dataset/carga-energia-di

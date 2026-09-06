@@ -98,7 +98,9 @@ import zipfile
 import numpy as np
 import pandas as pd
 
-ANOS = [2024, 2025, 2026]
+ANOS = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+# Extensão de profundidade histórica (2026-09): processamos aqui só os anos novos.
+# 2024-2026 já foram carregados antes e não precisam ser reprocessados.
 PASTA_VOLUME = "/Volumes/mba/stage/dados_bruto/inmet"
 PASTA_EXTRACAO = "/local_disk0/tmp/inmet_extraido"
 
@@ -256,7 +258,9 @@ for ano in ANOS:
         .withColumn("DatCarga", F.current_timestamp())
     )
 
-    modo = "overwrite" if primeiro_ano else "append"
+    # A tabela já existe com os anos 2024-2026 carregados antes; sempre "append" aqui
+    # para não sobrescrever o que já está na tabela.
+    modo = "append"
     (
         df_spark.write
         .format("delta")
