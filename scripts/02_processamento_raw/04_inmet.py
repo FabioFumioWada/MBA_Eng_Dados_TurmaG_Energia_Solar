@@ -180,6 +180,16 @@ def ler_dados_horarios(caminho):
 # DBTITLE 1,Extrai os ZIPs da camada stage e carrega ano a ano
 from pyspark.sql import functions as F
 
+# Pasta de staging dentro do Volume (visível tanto pelo driver/pandas quanto
+# pelo cluster Spark). Usamos parquet como "ponte" em vez de
+# spark.createDataFrame(pandas_df) porque, no serverless (Spark Connect), o
+# createDataFrame precisa transportar todas as linhas via rede (RPC) do
+# processo do notebook até o runtime remoto — com milhões de linhas isso
+# estoura o tempo limite da chamada (DEADLINE_EXCEEDED). Gravando primeiro em
+# parquet dentro do Volume e depois lendo com spark.read.parquet, a leitura é
+# feita direto no armazenamento pelo cluster, sem esse gargalo de rede.
+PASTA_STAGING_PARQUET = "/Volumes/mba/stage/dados_bruto/_tmp_parquet_clima_inmet"
+
 primeiro_ano = True
 
 for ano in ANOS:
@@ -221,8 +231,23 @@ for ano in ANOS:
     for coluna in ["regiao", "uf", "estacao", "codigo_wmo"]:
         consolidado_ano[coluna] = consolidado_ano[coluna].astype(str).str.strip()
 
+    # Garante tipos consistentes já no pandas (evita ambiguidade de schema
+    # quando o Spark ler o parquet de volta).
+    consolidado_ano["ano"] = consolidado_ano["ano"].astype("int32")
+    consolidado_ano["latitude"] = consolidado_ano["latitude"].astype("float64")
+    consolidado_ano["longitude"] = consolidado_ano["longitude"].astype("float64")
+    consolidado_ano["altitude_m"] = consolidado_ano["altitude_m"].astype("float64")
+
+    # Grava em parquet dentro do Volume (I/O local ao driver, rápido) em vez
+    # de mandar o DataFrame inteiro pela rede via spark.createDataFrame.
+    staging_path = f"{PASTA_STAGING_PARQUET}/ano={ano}"
+    os.makedirs(staging_path, exist_ok=True)
+    consolidado_ano.to_parquet(f"{staging_path}/part.parquet", index=False, engine="pyarrow")
+
+    # Agora sim o Spark lê o parquet direto do armazenamento (processamento
+    # feito no cluster remoto, sem gargalo de rede) e grava na tabela Delta.
     df_spark = (
-        spark.createDataFrame(consolidado_ano)
+        spark.read.parquet(staging_path)
         .withColumn("ano", F.col("ano").cast("int"))
         .withColumn("data", F.col("data").cast("date"))
         .withColumn("latitude", F.col("latitude").cast("double"))
@@ -240,6 +265,11 @@ for ano in ANOS:
         .saveAsTable("mba.raw.clima_inmet")
     )
     primeiro_ano = False
+
+    # Limpa o parquet temporário do ano (já está gravado na Delta table).
+    for arq in glob.glob(f"{staging_path}/*"):
+        os.remove(arq)
+    os.rmdir(staging_path)
 
     print(f"Ano {ano}: {len(consolidado_ano):,} linhas gravadas em mba.raw.clima_inmet "
           f"(arquivos com erro: {total_com_erro})")
