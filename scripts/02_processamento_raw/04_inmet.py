@@ -215,7 +215,18 @@ for ano in ANOS:
         try:
             meta = ler_metadados_estacao(caminho)
             df_horario = ler_dados_horarios(caminho)
-            df_horario["data"] = pd.to_datetime(df_horario["data"], format="%Y/%m/%d", errors="coerce").dt.date
+            # O INMET mudou o formato de data ao longo dos anos: arquivos de
+            # 2016 a 2018 usam YYYY-MM-DD (com hifen); de 2019 em diante usam
+            # YYYY/MM/DD (com barra). Tentamos o formato com barra primeiro
+            # e, para o que restar sem sucesso, tentamos o formato com hifen.
+            data_bruta = df_horario["data"]
+            data_convertida = pd.to_datetime(data_bruta, format="%Y/%m/%d", errors="coerce")
+            precisa_retry = data_convertida.isna() & data_bruta.notna()
+            if precisa_retry.any():
+                data_convertida.loc[precisa_retry] = pd.to_datetime(
+                    data_bruta[precisa_retry], format="%Y-%m-%d", errors="coerce"
+                )
+            df_horario["data"] = data_convertida.dt.date
             df_horario["ano"] = ano
             for campo, val in meta.items():
                 df_horario[campo] = val
