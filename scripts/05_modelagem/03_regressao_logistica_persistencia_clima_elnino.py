@@ -95,7 +95,9 @@ FEATURES = ["Mes", "PrecipitacaoAcumuladaMm", "PrecipitacaoPctNormal",
 TARGET = "IsVermelha"
 
 X, y = pdf[FEATURES], pdf[TARGET]
-N_TESTE = min(24, len(pdf) // 4)  # ultimos 24 meses viram o "teste" (ajustado se dataset for menor)
+# Base do grupo tem poucos meses (INMET 2024-2026); reserva no maximo 25%
+# dos meses mais recentes para teste (nunca mais que 24).
+N_TESTE = min(24, len(pdf) // 4)
 X_train, X_test = X.iloc[:-N_TESTE], X.iloc[-N_TESTE:]
 y_train, y_test = y.iloc[:-N_TESTE], y.iloc[-N_TESTE:]
 
