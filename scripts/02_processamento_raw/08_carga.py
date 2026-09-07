@@ -1,4 +1,12 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "5"
+# ///
+
+
+# COMMAND ----------
+
 # DBTITLE 1,Cria tabela
 # MAGIC %sql
 # MAGIC -- ============================================================

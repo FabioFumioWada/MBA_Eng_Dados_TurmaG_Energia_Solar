@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "5"
+# ///
 # DBTITLE 1,Cria tabela
 # MAGIC %sql
 # MAGIC CREATE TABLE IF NOT EXISTS mba.trusted.f_clima_diario(
