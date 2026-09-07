@@ -20,6 +20,8 @@
 # MAGIC 2. Para usinas sem nenhuma estacao dentro de 100 km, usamos a
 # MAGIC    estacao mais proxima disponivel como reserva (fallback), para
 # MAGIC    garantir que toda usina tenha ao menos uma estacao associada.
+# MAGIC 3. Removemos pares duplicados (mesma usina x mesma estacao),
+# MAGIC    mantendo a menor distancia calculada.
 
 # COMMAND ----------
 
@@ -73,10 +75,15 @@ spark.sql("""
         SELECT m.*
         FROM mais_proxima m
         LEFT ANTI JOIN dentro_do_raio d ON m.id_usina = d.id_usina
+    ),
+    pares AS (
+        SELECT id_usina, CodCEG, cod_estacao, distancia_km FROM dentro_do_raio
+        UNION ALL
+        SELECT id_usina, CodCEG, cod_estacao, distancia_km FROM sem_estacao_no_raio
     )
-    SELECT id_usina, CodCEG, cod_estacao, distancia_km FROM dentro_do_raio
-    UNION ALL
-    SELECT id_usina, CodCEG, cod_estacao, distancia_km FROM sem_estacao_no_raio
+    SELECT id_usina, CodCEG, cod_estacao, MIN(distancia_km) AS distancia_km
+    FROM pares
+    GROUP BY id_usina, CodCEG, cod_estacao
 """).createOrReplaceTempView("stg_usina_estacao")
 
 print(f"Pares usina-estacao: {spark.table('stg_usina_estacao').count():,}")
