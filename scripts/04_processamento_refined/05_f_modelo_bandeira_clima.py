@@ -1,6 +1,7 @@
 # Databricks notebook source
 # /// script
 # [tool.databricks.environment]
+# base_environment = "databricks_ai_v5"
 # environment_version = "5"
 # ///
 # MAGIC %md
@@ -69,44 +70,42 @@
 # COMMAND ----------
 
 # DBTITLE 1,Agrega clima mensal das estações ligadas a usinas
-from pyspark.sql import functions as F
-
-spark.sql("""
-    WITH usina_estacoes AS (
-        SELECT DISTINCT cod_estacao
-        FROM mba.trusted.d_usina_estacao
-        WHERE cod_estacao IS NOT NULL
-    ),
-    clima_usinas AS (
-        SELECT c.*, CAST(date_format(c.data, 'yyyyMM') AS INT) AS MesReferenciaClima
-        FROM mba.trusted.f_clima_diario c
-        JOIN usina_estacoes u ON c.codigo_wmo = u.cod_estacao
-    ),
-    clima_mensal AS (
-        SELECT
-            MesReferenciaClima,
-            CAST(SUBSTRING(CAST(MesReferenciaClima AS STRING), 5, 2) AS INT) AS Mes,
-            COUNT(DISTINCT codigo_wmo) AS QtdEstacoesUsadas,
-            ROUND(AVG(precipitacao_total_dia_mm), 2) AS PrecipitacaoMediaMm,
-            ROUND(SUM(precipitacao_total_dia_mm), 2) AS PrecipitacaoAcumuladaMm,
-            ROUND(AVG(temperatura_media_c), 2) AS TemperaturaMediaC,
-            ROUND(AVG(umidade_relativa_media_pct), 2) AS UmidadeMediaPct
-        FROM clima_usinas
-        GROUP BY MesReferenciaClima
-    ),
-    normal_mensal AS (
-        SELECT Mes, ROUND(AVG(PrecipitacaoAcumuladaMm), 2) AS PrecipitacaoNormalMm
-        FROM clima_mensal
-        GROUP BY Mes
-    )
-    SELECT
-        m.MesReferenciaClima, m.Mes, m.QtdEstacoesUsadas, m.PrecipitacaoMediaMm,
-        m.PrecipitacaoAcumuladaMm, n.PrecipitacaoNormalMm,
-        ROUND(m.PrecipitacaoAcumuladaMm / n.PrecipitacaoNormalMm * 100, 1) AS PrecipitacaoPctNormal,
-        m.TemperaturaMediaC, m.UmidadeMediaPct
-    FROM clima_mensal m
-    JOIN normal_mensal n ON m.Mes = n.Mes
-""").createOrReplaceTempView("stg_clima_mensal_usinas")
+# MAGIC %sql
+# MAGIC CREATE OR REPLACE TEMPORARY VIEW stg_clima_mensal_usinas AS
+# MAGIC WITH usina_estacoes AS (
+# MAGIC     SELECT DISTINCT cod_estacao
+# MAGIC     FROM mba.trusted.d_usina_estacao
+# MAGIC     WHERE cod_estacao IS NOT NULL
+# MAGIC ),
+# MAGIC clima_usinas AS (
+# MAGIC     SELECT c.*, CAST(date_format(c.data, 'yyyyMM') AS INT) AS MesReferenciaClima
+# MAGIC     FROM mba.trusted.f_clima_diario c
+# MAGIC     JOIN usina_estacoes u ON c.codigo_wmo = u.cod_estacao
+# MAGIC ),
+# MAGIC clima_mensal AS (
+# MAGIC     SELECT
+# MAGIC         MesReferenciaClima,
+# MAGIC         CAST(SUBSTRING(CAST(MesReferenciaClima AS STRING), 5, 2) AS INT) AS Mes,
+# MAGIC         COUNT(DISTINCT codigo_wmo) AS QtdEstacoesUsadas,
+# MAGIC         ROUND(AVG(precipitacao_total_dia_mm), 2) AS PrecipitacaoMediaMm,
+# MAGIC         ROUND(SUM(precipitacao_total_dia_mm), 2) AS PrecipitacaoAcumuladaMm,
+# MAGIC         ROUND(AVG(temperatura_media_c), 2) AS TemperaturaMediaC,
+# MAGIC         ROUND(AVG(umidade_relativa_media_pct), 2) AS UmidadeMediaPct
+# MAGIC     FROM clima_usinas
+# MAGIC     GROUP BY MesReferenciaClima
+# MAGIC ),
+# MAGIC normal_mensal AS (
+# MAGIC     SELECT Mes, ROUND(AVG(PrecipitacaoAcumuladaMm), 2) AS PrecipitacaoNormalMm
+# MAGIC     FROM clima_mensal
+# MAGIC     GROUP BY Mes
+# MAGIC )
+# MAGIC SELECT
+# MAGIC     m.MesReferenciaClima, m.Mes, m.QtdEstacoesUsadas, m.PrecipitacaoMediaMm,
+# MAGIC     m.PrecipitacaoAcumuladaMm, n.PrecipitacaoNormalMm,
+# MAGIC     ROUND(m.PrecipitacaoAcumuladaMm / n.PrecipitacaoNormalMm * 100, 1) AS PrecipitacaoPctNormal,
+# MAGIC     m.TemperaturaMediaC, m.UmidadeMediaPct
+# MAGIC FROM clima_mensal m
+# MAGIC JOIN normal_mensal n ON m.Mes = n.Mes;
 
 # COMMAND ----------
 
