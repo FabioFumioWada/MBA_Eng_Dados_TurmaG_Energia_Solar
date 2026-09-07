@@ -1,0 +1,939 @@
+﻿Municipio,UF,QtdUsinasHidreletricas,QtdUHE,QtdPCH,QtdCGH,QtdEmOperacao,PotenciaOutorgadaTotalKw,NomesUsinas
+Delmiro Gouveia,AL,5,5,0,0,5,4279601.0,Apolônio Sales (Antiga Moxotó); Paulo Afonso I; Paulo Afonso II; Paulo Afonso III; Paulo Afonso IV
+Maceió,AL,1,0,0,1,1,412.8,Caeté Cachoeira
+Matriz de Camaragibe,AL,1,0,0,1,1,945.0,Cachoeira Serra D Água
+Piranhas,AL,1,1,0,0,1,3162000.0,Xingó
+Rio Largo,AL,1,0,0,1,1,864.0,Gustavo Paiva
+São José da Laje,AL,3,0,0,3,3,1766.7,Gibóia; Laje; Oriental
+São Luís do Quitunde,AL,1,0,0,1,1,472.5,Cachoeira do Feijó
+Presidente Figueiredo,AM,2,2,0,0,2,274710.0,Balbina; Pitinga
+Ferreira Gomes,AP,3,3,0,0,3,549000.0,Cachoeira Caldeirão; Coaracy Nunes; Ferreira Gomes
+Laranjal do Jari,AP,1,1,0,0,1,392950.0,Santo Antônio do Jari
+Macapá,AP,1,1,0,0,1,78000.0,Coaracy Nunes
+Oiapoque,AP,1,0,1,0,0,7500.0,Salto Cafesoca
+Porto Grande,AP,1,1,0,0,1,219000.0,Cachoeira Caldeirão
+Barreiras,BA,2,0,0,2,2,2240.0,AISA - CABECEIRINHA; SANTA CRUZ II
+Cachoeira,BA,1,1,0,0,1,160000.0,Pedra do Cavalo
+Correntina,BA,1,0,1,0,1,8000.0,Presidente Goulart
+Formosa do Rio Preto,BA,1,0,0,1,1,60.0,Fazenda Cachoeira
+Glória,BA,1,1,0,0,1,1479600.0,Luiz Gonzaga (Itaparica)
+Governador Mangabeira,BA,1,1,0,0,1,160000.0,Pedra do Cavalo
+Ibirapitanga,BA,1,0,0,1,1,533.6,Santa Luzia
+Igrapiúna,BA,3,0,0,3,3,844.0,Juliana I; Juliana II; Vargido
+Itamaraju,BA,1,0,1,0,1,14800.0,Cachoeira da Lixa
+Itapebi,BA,1,1,0,0,1,462011.0,Itapebi
+Jaborandi,BA,3,0,0,3,3,3740.0,Dourado; Girassol; Pratudão
+Jequié,BA,1,1,0,0,1,20007.0,Pedra
+Jucuruçu,BA,3,0,3,0,3,41800.0,Cachoeira da Lixa; Colino 1; Colino 2
+Mucuri,BA,1,1,0,0,1,60000.0,Santa Clara
+Paulo Afonso,BA,4,4,0,0,4,3879601.0,Paulo Afonso I; Paulo Afonso II; Paulo Afonso III; Paulo Afonso IV
+Piatã,BA,1,0,0,1,1,7.5,Fazenda Magna Mater
+Sobradinho,BA,1,1,0,0,1,1050300.0,Sobradinho
+São Desidério,BA,5,1,2,2,4,56101.0,Alto Fêmeas I; Norfil Agro; Rieger Agropecuária; Santa Luzia; Sítio Grande
+Ubaitaba,BA,1,1,0,0,1,30000.0,Funil
+Valença,BA,1,0,1,0,1,10980.0,Candengo
+Vereda,BA,2,0,2,0,2,27000.0,Colino 1; Colino 2
+Brasília,DF,1,1,0,0,1,30000.0,Paranoá
+Alegre,ES,3,0,3,0,3,58056.0,Alegre; Francisco Gross (Antiga Santa Fé); São Simão
+Alfredo Chaves,ES,1,0,1,0,1,21000.0,São Joaquim
+Baixo Guandu,ES,2,2,0,0,2,528000.0,Aimorés; Mascarenhas
+Cachoeiro de Itapemirim,ES,1,0,1,0,1,8736.0,Fruteiras
+Castelo,ES,1,0,1,0,1,25000.0,São João
+Colatina,ES,2,0,0,2,2,480.0,Cachoeira do Oito; Santa Maria
+Conceição do Castelo,ES,2,0,2,0,2,29500.0,São João; Viçosa (Antiga Bicame)
+Domingos Martins,ES,3,0,2,1,2,39840.0,Frei Galvão; Jucu; São Pedro
+Dores do Rio Preto,ES,1,0,1,0,1,4500.0,Fumaça IV
+Guaçuí,ES,1,1,0,0,1,55000.0,Rosal
+Itapemirim,ES,1,0,1,0,1,3800.0,Ilha da Luz
+Laranja da Terra,ES,1,0,1,0,1,10500.0,São Luiz
+Mimoso do Sul,ES,1,0,1,0,1,19000.0,Pedra do Garrafão
+Muniz Freire,ES,1,1,0,0,1,25000.0,Muniz Freire
+Rio Novo do Sul,ES,1,0,0,1,1,1512.0,Santa Luzia
+Santa Leopoldina,ES,1,1,0,0,1,35337.0,Suíça
+Santa Maria de Jetibá,ES,1,0,1,0,1,22500.0,Rio Bonito
+Santa Teresa,ES,1,0,0,1,1,440.0,Tabocas
+Serra,ES,1,0,0,1,1,7.5,Sítio Barragem
+São Gabriel da Palha,ES,1,0,0,1,1,900.0,Cachoeira da Onça
+São José do Calçado,ES,4,1,3,0,4,99028.0,Calheiros; Franca Amaral; Pirapetinga; Rosal
+Venda Nova do Imigrante,ES,1,0,0,1,1,32.0,Geração Carnielli
+Acreúna,GO,1,0,1,0,1,30000.0,Verde 8
+Aporé,GO,6,2,4,0,5,160774.0,Espora; Itumirim; Planalto; Pontal do Prata; Queixada; Retiro Velho
+Arenópolis,GO,4,0,4,0,4,105328.0,Mosquitão; Rênic; Santo Antônio do Caiapó; Tamboril
+Buritinópolis,GO,3,0,3,0,3,38000.0,Riachão (Antiga Santa Edwiges I); Santa Edwiges II; Santa Edwiges III
+Cachoeira Alta,GO,1,1,0,0,1,90000.0,Barra dos Coqueiros
+Cachoeira Dourada,GO,1,1,0,0,1,658000.0,Cachoeira Dourada
+Caldas Novas,GO,1,1,0,0,1,375000.0,Corumbá I
+Catalão,GO,3,2,0,1,3,1405960.0,Serra do Facão; São Bento; Theodomiro Carneiro Santiago ( Antiga Emborcação)
+Cavalcante,GO,3,2,1,0,2,1755000.0,Cana Brava; Santa Mônica; Serra da Mesa
+Caçu,GO,5,4,1,0,4,372400.0,Caçu; Eng. Érico Bitencourt de Freitas; Engenheiro José Luiz Muller de Godoy Pereira (Antiga Foz do Rio Claro); Salto; Salto do Rio Verdinho
+Chapadão do Céu,GO,2,0,1,1,2,13958.0,Eletrocéu Produção e Distribuição de Eletricidade; Pontal do Prata
+Corumbaíba,GO,1,1,0,0,1,375000.0,Corumbá I
+Cristalina,GO,4,2,2,0,4,187300.0,Batalha (Antiga Paulista); Gameleira; Queimado; Tamboril
+Davinópolis,GO,2,1,1,0,1,224580.0,Serra do Facão; São Bento
+Gameleira de Goiás,GO,1,0,0,1,1,958.74,Gameleira
+Goiandira,GO,2,0,2,0,2,48000.0,Goiandira; Nova Aurora
+Ipameri,GO,2,0,1,1,2,24193.6,Lago Azul; Nova Aurora
+Iporá,GO,1,0,1,0,1,30000.0,Mosquitão
+Itarumã,GO,6,3,3,0,3,341200.0,Estrela; Queixada; Salto; Salto do Rio Verdinho; Taboca; Tucano M1
+Itumbiara,GO,1,1,0,0,1,658000.0,Cachoeira Dourada
+Ivolândia,GO,1,0,1,0,1,30000.0,Santo Antônio do Caiapó
+Jataí,GO,6,0,3,3,4,80874.6,Agropecuaria Rio Paraiso; Aliança; Fazenda Velha; Jataí; Ponente; Taboca
+Luziânia,GO,4,2,2,0,4,251647.0,Corumbá III; Corumbá IV; Gameleira; São Bartolomeu
+Mambaí,GO,2,0,2,0,2,26400.0,Riachão (Antiga Santa Edwiges I); Santa Edwiges II
+Minaçu,GO,2,2,0,0,2,1725000.0,Cana Brava; Serra da Mesa
+Mineiros,GO,1,0,0,1,1,3000.0,Diamantino
+Nova Aurora,GO,2,0,2,0,2,48000.0,Goiandira; Nova Aurora
+Palestina de Goiás,GO,3,0,3,0,3,75328.0,Rênic; Santo Antônio do Caiapó; Tamboril
+Piracanjuba,GO,1,1,0,0,1,4000.0,Rochedo
+Piranhas,GO,1,0,1,0,1,18000.0,Piranhas
+Planaltina,GO,1,0,1,0,0,9990.0,Muçungo
+Rianápolis,GO,1,0,1,0,1,3010.0,Cachoeira do Lavrinha (Antiga São Patrício)
+Rio Verde,GO,4,0,3,1,3,76555.0,Cachoeira Rio Verde; Irara; Verde 02 Baixo; Verde 03
+Santa Helena de Goiás,GO,2,0,2,0,2,60000.0,Verde 8; Ypê
+Santa Rita do Araguaia,GO,1,0,1,0,1,800.0,Alto Araguaia
+Serranópolis,GO,3,2,1,0,1,110200.0,Espora; Estrela; Taboca
+São Domingos,GO,3,1,2,0,3,48720.0,Galheiros I; São Domingos; São Domingos II
+São Simão,GO,2,2,0,0,2,1778400.0,Engenheiro José Luiz Muller de Godoy Pereira (Antiga Foz do Rio Claro); São Simão
+Sítio d´Abadia,GO,1,0,1,0,1,12000.0,Mambaí II
+Turvelândia,GO,1,0,1,0,1,30000.0,Verde 8
+Água Fria de Goiás,GO,1,0,1,0,0,9990.0,Muçungo
+Estreito,MA,1,1,0,0,1,1087000.0,Estreito
+São João dos Patos,MA,1,1,0,0,1,237300.0,Boa Esperança (Antiga Castelo Branco)
+Abadia dos Dourados,MG,1,0,0,1,1,990.0,Dourados
+Abre Campo,MG,1,0,1,0,1,15800.0,Túlio Cordeiro de Mello (Antiga Granada)
+Aimorés,MG,2,2,0,0,2,528000.0,Aimorés; Mascarenhas
+Alagoa,MG,1,0,0,1,1,1600.0,Alagoa III
+Alpercata,MG,1,1,0,0,1,140000.0,Baguari
+Alvarenga,MG,1,0,1,0,1,27000.0,Henrique Nunes Coutinho (Antiga Cachoeirão)
+Alvinópolis,MG,2,0,0,2,2,1540.0,Funil; Paulo Mascarenhas
+Além Paraíba,MG,2,2,0,0,2,520869.0,Ilha dos Pombos; Simplício
+Antônio Dias,MG,3,2,1,0,3,228000.0,Cocais Grande; Guilman Amorim; Sá Carvalho
+Antônio Prado de Minas,MG,1,0,0,1,1,1000.0,Antônio Prado
+Araguari,MG,3,2,0,1,3,455360.0,Amador Aguiar I (Antiga Capim Branco I); Amador Aguiar II (Antiga Capim Branco II); Pissarrão
+Araporã,MG,1,1,0,0,1,2082000.0,Itumbiara
+Arceburgo,MG,3,0,0,3,3,2102.0,Dr Tito 1; Dr.Tito 2; São Sebastião
+Astolfo Dutra,MG,2,0,2,0,2,32400.0,Ivan Botelho III (Antiga Triunfo); Zé Tunin
+Augusto de Lima,MG,1,0,1,0,0,29250.0,Oswaldo Vicintin
+Açucena,MG,3,1,2,0,3,149240.0,Barra da Paciência; Corrente Grande; Porto Estrela
+Baependi,MG,4,0,1,3,4,2952.0,Congonhal I; Congonhal II; Pirambeira; Ribeirão
+Barbacena,MG,2,0,0,2,2,3760.0,Ilhéus; Lavras
+Barroso,MG,1,0,0,1,1,1616.0,Santo Antônio do Rio do Freire
+Belmiro Braga,MG,1,1,0,0,1,60000.0,Sobragi
+Belo Horizonte,MG,3,0,0,3,3,13155.0,Caboclo; Funil; Salto
+Berilo,MG,1,1,0,0,1,399000.0,Irapé
+Bom Despacho,MG,1,0,0,1,1,1569.99,João de Deus
+Bom Jesus do Galho,MG,3,0,0,3,3,3478.4,BOM JESUS; Bom Jesus do Galho; Sumidouro
+Bom Sucesso,MG,1,1,0,0,1,180000.0,Funil
+Bonfim,MG,2,0,0,2,2,7400.0,Caquende; Juliões
+Borda da Mata,MG,1,0,0,1,1,1000.0,Santa Terezinha
+Braúnas,MG,2,2,0,0,2,214240.0,Porto Estrela; Salto Grande
+Bueno Brandão,MG,2,0,0,2,2,2500.0,Cachoeirinha; Limoeiro
+Buritizeiro,MG,6,0,0,6,6,69.68,Buriti Queimado; Fazenda Nazaré; Fazenda Riga; Fazenda Tabua; Fazenda Água Branca; Salitre
+Cabeceira Grande,MG,1,0,1,0,1,24000.0,Mata Velha
+Cachoeira da Prata,MG,1,0,0,1,1,160.0,Cachoeira Velonorte
+Caiana,MG,1,0,1,0,1,4500.0,Fumaça IV
+Caldas,MG,1,0,0,1,1,312.08,Coroado
+Camacho,MG,1,0,0,1,1,620.4,Grafite
+Camanducaia,MG,1,0,0,1,1,1566.0,Focus Geração Camanducaia Participações
+Cambuí,MG,1,0,0,1,1,920.0,Cambuí
+Campanha,MG,1,0,0,1,1,1808.0,Xicão
+Campestre,MG,2,0,0,2,2,1800.0,João Franco; Pedacinho do Céu
+Canaã,MG,2,0,0,2,2,872.5,Casquinha; Limoeiro
+Candeias,MG,1,0,0,1,1,680.0,Monteiros
+Carandaí,MG,1,0,0,1,1,1000.0,Bom Jardim
+Carangola,MG,1,0,1,0,1,15000.0,Carangola
+Caratinga,MG,3,0,2,1,3,40799.0,Areia Branca; Laje; Pipoca
+Carlos Chagas,MG,1,0,1,0,1,19100.0,Mucuri
+Carmo de Minas,MG,1,0,0,1,1,550.0,Canaã
+Carmo do Cajuru,MG,1,1,0,0,1,7200.0,Cajuru
+Carmópolis de Minas,MG,1,0,0,1,1,1575.0,Maria Célia Mauad Notini
+Carvalhos,MG,2,0,0,2,2,1670.0,Boa Vista Capeada; Posses
+Cascalho Rico,MG,1,1,0,0,1,1192000.0,Theodomiro Carneiro Santiago ( Antiga Emborcação)
+Centralina,MG,1,0,0,1,1,704.0,Santa Luzia
+Chalé,MG,2,0,1,1,2,11100.0,Chalé; Varginha
+Chiador,MG,1,1,0,0,1,333700.0,Simplício
+Conceição das Alagoas,MG,1,1,0,0,1,380000.0,Volta Grande
+Conceição de Ipanema,MG,1,0,1,0,1,7500.0,Várzea Alegre
+Conceição do Pará,MG,1,0,0,1,1,1650.0,Pitangui
+Conquista,MG,1,1,0,0,1,210000.0,Igarapava
+Coqueiral,MG,1,0,0,1,1,60.35,Chiquinho Barbosa
+Coroaci,MG,1,1,0,0,1,8500.0,Tronqueiras
+Coromandel,MG,1,0,0,1,1,680.0,Lages
+Coronel Xavier Chaves,MG,1,0,0,1,1,4194.4,Carandaí
+Cristina,MG,1,0,1,0,1,3800.0,Cristina
+Curvelo,MG,1,1,0,0,1,83657.0,Retiro Baixo
+Delfim Moreira,MG,1,0,1,0,1,10000.0,Ninho da Águia
+Delfinópolis,MG,1,1,0,0,1,476000.0,Marechal Mascarenhas de Moraes (Antiga Peixoto)
+Descoberto,MG,1,0,1,0,1,24300.0,Ivan Botelho I (Antiga Ponte)
+Diamantina,MG,2,0,2,0,1,59250.0,Oswaldo Vicintin; Serra das Agulhas
+Divinópolis,MG,4,2,0,2,4,22787.0,Cajuru; Divinópolis; Gafanhoto; São José
+Dom Silvério,MG,1,0,0,1,1,540.0,Funil
+Dores de Guanhães,MG,4,0,4,0,4,57500.0,Dores de Guanhães; Funil; Jacaré; Senhora do Porto
+Durandé,MG,2,0,0,2,2,2260.0,INGÁ MIRIM; Ingá
+Ervália,MG,1,1,0,0,1,6970.0,Ervália
+Fernandes Tourinho,MG,1,1,0,0,1,140000.0,Baguari
+Florestal,MG,1,0,0,1,1,500.0,Florestal
+Formiga,MG,1,0,0,1,1,352.0,Pouso Alegre
+Frei Inocêncio,MG,1,0,1,0,1,20000.0,Paiol
+Fronteira,MG,1,1,0,0,1,1440000.0,Marimbondo
+Gonzaga,MG,2,0,2,0,2,37000.0,Barra da Paciência; Corrente Grande
+Gouveia,MG,1,0,1,0,1,4280.0,Paraúna
+Governador Valadares,MG,1,1,0,0,1,140000.0,Baguari
+Grão Mogol,MG,2,1,0,1,2,400000.0,Irapé; Santa Marta
+Guanhães,MG,2,0,1,1,2,10000.0,Dona Enedina; Fortuna II
+Guaraciaba,MG,2,1,0,1,2,17831.0,Anjos; Brecha
+Guarani,MG,3,0,3,0,3,44700.0,Ivan Botelho I (Antiga Ponte); Ivan Botelho II (Antiga Palestina); Zé Tunin
+Guaranésia,MG,1,0,0,1,1,440.3,Santa Cleonice
+Guiricema,MG,1,1,0,0,1,6970.0,Ervália
+Iapu,MG,1,1,0,0,1,140000.0,Baguari
+Ibiraci,MG,2,1,0,1,2,476650.0,Cascata do Barreiro Ibiraci; Marechal Mascarenhas de Moraes (Antiga Peixoto)
+Ibituruna,MG,1,1,0,0,1,180000.0,Funil
+Igaratinga,MG,1,0,0,1,1,625.6,Britos
+Ijaci,MG,1,1,0,0,1,180000.0,Funil
+Indianópolis,MG,1,1,0,0,1,408000.0,Miranda
+Inhapim,MG,1,0,1,0,1,6000.0,Inhapim
+Ipanema,MG,3,1,2,0,3,46268.0,Areia Branca; Neblina; Pipoca
+Itabirito,MG,4,0,1,3,4,11722.4,Agostinho Rodrigues; Bonga; Bração; Rio de Pedras
+Itajubá,MG,1,0,0,1,1,1610.0,Luiz Dias
+Itamonte,MG,1,0,0,1,1,500.0,Itamonte
+Itaú de Minas,MG,1,1,0,0,1,3200.0,São João
+Itaúna,MG,5,0,1,4,5,6647.6,Britos; Caixão; Coronel Jové Soares Nogueira (benfica); Coronel João de Cerqueira Lima; Doutor Augusto Gonçalves de Souza
+Ituiutaba,MG,1,0,0,1,1,2394.0,Salto Morais
+Itumirim,MG,1,1,0,0,1,180000.0,Funil
+Iturama,MG,1,1,0,0,1,1396200.0,Água Vermelha (Antiga José Ermírio de Moraes)
+Itutinga,MG,2,2,0,0,2,98000.0,Camargos; Itutinga
+Jacutinga,MG,1,0,0,1,1,576.0,Jacutinga
+Jacuí,MG,1,1,0,0,1,650.0,Santana
+Jeceaba,MG,1,0,1,0,1,2460.0,Salto do Paraopeba
+Joanésia,MG,1,1,0,0,1,112240.0,Porto Estrela
+João Monlevade,MG,1,0,1,0,1,9000.0,Rio Piracicaba
+Juiz de Fora,MG,5,3,0,2,5,62828.0,Fazenda Aquidauana; Joasal; Marmelos; Matipó; Picada
+Lassance,MG,1,0,1,0,1,5335.0,Santa Helena
+Lavras,MG,1,1,0,0,1,180000.0,Funil
+Leopoldina,MG,2,0,1,1,2,29872.0,Maurício; Nova Maurício
+Liberdade,MG,3,0,0,3,3,2325.2,Barulho; Floresta; Nickel Ponte Alta
+Lima Duarte,MG,1,0,0,1,1,2340.0,Cachoeira do Brumado
+Manhuaçu,MG,4,1,1,2,4,12584.0,Benjamim Mário Baptista (Antiga Nova Sinceridade); OPHIR; Roça Grande; Sinceridade
+Maria da Fé,MG,1,0,0,1,1,450.0,OLIVA BRASIL
+Mariana,MG,2,0,2,0,2,16000.0,Fumaça; Furquim
+Mathias Lobato,MG,1,0,1,0,1,20000.0,Paiol
+Matias Barbosa,MG,1,1,0,0,1,4080.0,Paciência
+Miradouro,MG,2,0,0,2,2,2260.0,Miradouro; Santa Bárbara Energia
+Miraí,MG,2,0,0,2,2,1160.0,Miguel Pereira; Santa Cecília
+Monjolos,MG,1,0,1,0,1,30000.0,Serra das Agulhas
+Monte Alegre de Minas,MG,1,0,1,0,1,21690.0,Piedade
+Monte Santo de Minas,MG,1,0,0,1,1,670.35,Pinheirinho
+Muriaé,MG,4,2,1,1,4,42800.0,Coronel Domiciano; Glória; Ormeo Junqueira Botelho (Antiga Cachoeira Encoberta); Pirapanema
+Muzambinho,MG,1,0,0,1,1,630.0,Mandassaia
+Nanuque,MG,1,1,0,0,1,60000.0,Santa Clara
+Nazareno,MG,2,2,0,0,2,98000.0,Camargos; Itutinga
+Nepomuceno,MG,1,0,0,1,1,1000.0,COURO DO CERVO
+Nova Era,MG,1,1,0,0,1,140000.0,Guilman Amorim
+Nova Lima,MG,7,0,6,1,7,13800.0,B; Codorna; D; E; E Nova; F; G
+Nova Ponte,MG,2,1,0,1,2,510024.0,Córrego Barro Preto; Nova Ponte
+Oliveira,MG,1,0,1,0,1,2880.0,Oliveira
+Ouro Preto,MG,1,0,0,1,1,3757.5,Cachoeira dos Prazeres
+Paracatu,MG,2,1,0,1,2,53460.0,Batalha; Batalha (Antiga Paulista)
+Pará de Minas,MG,1,0,0,1,1,1472.0,Companhia Tecidos Santanense
+Passa Quatro,MG,1,0,0,1,1,840.0,Lamins
+Passa Tempo,MG,2,0,0,2,2,6345.0,Dorneles; Maria Célia Mauad Notini
+Passa-Vinte,MG,1,0,1,0,1,1920.0,Paes Leme
+Passos,MG,1,1,0,0,1,7360.0,Monte Alto
+Patrocínio,MG,1,0,0,1,1,300.0,Parque Hotel Serra Negra
+Pavão,MG,1,0,1,0,1,19100.0,Mucuri
+Pedra do Indaiá,MG,1,0,0,1,1,910.0,Camarão
+Perdizes,MG,1,0,0,1,1,3375.0,Cachoeira dos Macacos
+Perdões,MG,1,1,0,0,1,180000.0,Funil
+Periquito,MG,1,1,0,0,1,140000.0,Baguari
+Piau,MG,1,1,0,0,1,18012.0,Piau
+Piranguçu,MG,1,0,1,0,1,6820.0,São Bernardo
+Pirapora,MG,1,0,0,1,1,1.03,Fazenda Água Branca
+Planura,MG,1,1,0,0,1,320000.0,Porto Colômbia
+Pocrane,MG,1,0,1,0,1,27000.0,Henrique Nunes Coutinho (Antiga Cachoeirão)
+Pompéu,MG,1,1,0,0,1,83657.0,Retiro Baixo
+Ponte Nova,MG,2,0,1,1,1,31900.0,Brito; Pontal
+Poço Fundo,MG,1,0,1,0,1,30000.0,Poço Fundo
+Poços de Caldas,MG,6,2,1,3,6,34912.08,Coroado; José Togni; Padre Carlos (Antiga Rolador); Pedro Affonso Junqueira (Antiga Antas I); Ubirajara Machado de Moraes; Walter Rossi (Antiga Antas II)
+Raul Soares,MG,4,1,1,2,3,30736.0,Armando de Abreu Rios; João Camilo Penna (Antiga Cachoeira do Emboque); Melo Viana; Vermelho Velho
+Recreio,MG,1,1,0,0,1,39000.0,Barra do Braúna
+Reduto,MG,2,1,0,1,2,1718.4,Cachoeira Alta; Sinceridade
+Rio Casca,MG,1,0,0,1,1,3000.0,Nova Ponte Queimada II
+Rio Doce,MG,2,1,0,1,2,141000.0,Paulo Mascarenhas; Risoleta Neves (Antiga Candonga)
+Rio Pomba,MG,1,0,0,1,1,4040.0,Ituerê
+Rio Preto,MG,1,0,1,0,1,10685.0,Mello
+Rosário da Limeira,MG,1,0,0,1,1,1260.0,Limeira
+Sabará,MG,2,0,0,2,2,2044.0,Bosque dos Chalés; Marzagão
+Sacramento,MG,7,2,1,4,7,1501823.0,Borá; Cachoeira dos Macacos; Eco Vida Cajuru; Estreito (Luiz Carlos Barreto de Carvalho); Jaguara; Pai Joaquim; Santa Marta
+Santa Bárbara do Monte Verde,MG,1,0,0,1,1,3000.0,Serra Negra
+Santa Cruz do Escalvado,MG,1,1,0,0,1,140000.0,Risoleta Neves (Antiga Candonga)
+Santa Juliana,MG,1,0,1,0,1,23000.0,Pai Joaquim
+Santa Maria de Itabira,MG,1,1,0,0,1,2408.0,Dona Rita
+Santa Rita de Jacutinga,MG,2,0,1,1,2,5949.17,Areal; Henrique Portugal
+Santa Vitória,MG,2,1,0,1,2,1710190.0,Nascer do Sol; São Simão
+Santana da Vargem,MG,1,0,0,1,1,60.35,Chiquinho Barbosa
+Santana do Deserto,MG,2,0,1,1,2,31600.0,Santa Fé I; Santana do Deserto I
+Santana do Jacaré,MG,1,0,0,1,1,2056.0,Anil
+Santana do Riacho,MG,2,0,1,1,2,10600.0,Coronel Américo Teixeira; Pacífico Mascarenhas
+Santo Antônio do Monte,MG,1,0,0,1,1,500.0,Cachoeira Diamante
+Santos Dumont,MG,2,0,2,0,2,7080.0,Anna Maria; Guary
+Sapucaí-Mirim,MG,1,0,0,1,1,73.04,NR
+Serra dos Aimorés,MG,1,1,0,0,1,60000.0,Santa Clara
+Serrania,MG,2,0,0,2,2,1308.8,SERRANIA TERRENO; Serrania
+Sete Lagoas,MG,1,0,0,1,1,16.0,Central Tropeiro
+Simonésia,MG,1,0,0,1,1,3000.0,Simonésia
+Simão Pereira,MG,3,1,2,0,3,104000.0,Bonfante; Monte Serrat; Sobragi
+Sobrália,MG,1,1,0,0,1,140000.0,Baguari
+São Francisco do Glória,MG,2,0,0,2,2,4674.0,Cachoeira do Espírito Santo; Juá
+São Gonçalo do Rio Abaixo,MG,2,1,1,0,2,20400.0,Peti; São Gonçalo (Antiga Santa Bárbara)
+São Gotardo,MG,1,0,0,1,1,796.0,Jacques Dornas
+São José da Barra,MG,1,1,0,0,1,1216000.0,Furnas
+São José do Mantimento,MG,1,0,1,0,1,9000.0,Varginha
+São João Batista do Glória,MG,1,1,0,0,1,1216000.0,Furnas
+São João del Rei,MG,1,0,0,1,1,736.0,Moinho 2
+São João do Paraíso,MG,1,0,1,0,1,1720.0,Machado Mineiro
+São Miguel do Anta,MG,2,0,0,2,2,872.5,Casquinha; Limoeiro
+Taquaraçu de Minas,MG,1,0,1,0,1,2880.0,Madame Denise (Cachoeira do Furado)
+Tombos,MG,1,0,1,0,1,2880.0,Tombos
+Três Marias,MG,1,1,0,0,1,396000.0,Três Marias
+Uberlândia,MG,6,4,1,1,6,890760.0,Amador Aguiar I (Antiga Capim Branco I); Amador Aguiar II (Antiga Capim Branco II); Malagone; Martins; Miranda; Tapuirama
+Unaí,MG,4,1,2,1,4,155020.0,Mata Velha; Queimado; Unaí Baixo; W. Egido
+Varginha,MG,2,0,1,1,2,30900.0,Boa Vista II; Braço Seco
+Virginópolis,MG,1,0,1,0,1,9000.0,Fortuna II
+Volta Grande,MG,2,0,0,2,1,3490.0,Volta Grande
+Wenceslau Braz,MG,1,0,1,0,1,3340.0,Rede Elétrica Piquete - Itajubá - REPI
+Águas Vermelhas,MG,1,0,1,0,1,1720.0,Machado Mineiro
+Amambaí,MS,1,0,0,1,1,688.0,Córrego São Luiz
+Anaurilândia,MS,1,1,0,0,1,1540000.0,Porto Primavera (Eng° Sérgio Motta)
+Bonito,MS,1,0,0,1,1,50.0,Rio Formoso
+Campo Grande,MS,2,0,0,2,2,658.0,Energia Maia Ltda; Fazenda Marcela
+Cassilândia,MS,5,0,4,1,5,63038.0,CHAPADAO; Indaiazinho  (Antiga Indaiazinho Grande); Indaiá Grande; Lajeado; Planalto
+Chapadão do Sul,MS,9,0,6,3,9,150244.0,Alto Sucuriú; Aporé; Areado; Bandeirante; Buriti; Corrego Ger; Indaiá; Lajeado; Porto das Pedras
+Costa Rica,MS,5,0,3,2,4,49004.0,A; Agropecuária São Marcos; Central H. São Miguel; Costa Rica; Paraíso I
+Coxim,MS,1,0,0,1,1,400.0,Coxim
+Jaraguari,MS,1,0,0,1,1,925.0,Santa Izabel
+Laguna Carapã,MS,1,0,0,1,1,688.0,Córrego São Luiz
+Nova Alvorada do Sul,MS,1,0,0,1,1,58.0,Fazenda Concórdia
+Paraíso das Águas,MS,1,0,1,0,1,22000.0,Fundãozinho
+Ponta Porã,MS,2,0,0,2,2,1264.0,São João I; São João II
+Ribas do Rio Pardo,MS,5,2,2,1,5,125500.0,Assis Chateaubriand(Antiga Salto Mimoso); Miniusina Fazenda Alecrim; São Domingos; Verde 4; Verde 4A
+Santa Rita do Pardo,MS,1,0,0,1,1,20.0,INDAIÁ - Córrego Desbarrancado
+Selvíria,MS,1,1,0,0,1,3444000.0,Ilha Solteira
+Sonora,MS,3,1,1,1,3,204600.0,Aquarius; Ponte de Pedra; Santa Gabriela
+São Gabriel do Oeste,MS,2,0,1,1,2,13225.0,Bela Miragem; Ponte Alta
+Três Lagoas,MS,1,1,0,0,1,1551200.0,Jupiá (Eng° Souza Dias)
+Água Clara,MS,7,1,6,0,7,210030.0,Alto Sucuriú; Bandeirante; Buriti; Porto das Pedras; São Domingos; Verde 4; Verde 4A
+Alta Floresta,MT,3,1,2,0,3,102000.0,Cabeça de Boi; Da Fazenda; Salto Apiacás
+Alto Araguaia,MT,4,0,1,3,4,3800.0,Alto Araguaia; Alto Garças; Araguaia; Araguainha
+Alto Garças,MT,1,0,0,1,1,360.0,Cachoeira da Onça
+Alto Paraguai,MT,1,0,1,0,1,1680.0,Alto Paraguai (Pedro Pedrossian)
+Alto Taquari,MT,1,0,1,0,1,20880.0,Lajari
+Araputanga,MT,2,0,2,0,2,47960.0,Antônio Brennand (Antiga  Alto Jauru); Ombreiras
+Aripuanã,MT,4,2,1,1,4,294588.0,Aripuanã; Dardanelos; Faxinal I; Faxinal II
+Barra do Bugres,MT,6,2,3,1,5,147000.8,Caramujo; Graça Brennand (Antiga Terra Santa); Juba I; Juba II; Jubinha III; Pampeana
+Brasnorte,MT,4,0,2,2,4,61160.0,Bocaiúva; Córrego Santa Cruz; Itapiranga; Sacre II
+Campinápolis,MT,1,0,1,0,1,29020.0,Paranatinga II
+Campo Novo do Parecis,MT,5,0,4,1,4,84580.0,Bacuri; Baruíto; Garganta da Jararaca; Inxú; Seis Lagoas
+Campos de Júlio,MT,14,1,12,1,12,270338.0,Cidezal; Divisa; Ilha Comprida; Jesuíta; Juruena; Juí 117; Masutti; Parecis; Rondon; Santa Luzia (Antiga Presente de Deus); Santo Antônio (Antiga Comodoro); Sapezal; Segredo; Telegráfica
+Canarana,MT,1,0,0,1,1,56.25,Cocal (75 Kw)
+Chapada dos Guimarães,MT,3,1,2,0,3,225940.0,Casca II; Casca III; Manso
+Cláudia,MT,1,1,0,0,1,401880.0,Sinop
+Comodoro,MT,8,0,5,3,6,36080.25,Cabixi I; Cabixi II; Esperança; Miranda Estância; Rio Margarida 2; Rio Prata; Santa Luzia (Antiga Presente de Deus); Santo Antônio (Antiga Comodoro)
+Conquista D'Oeste,MT,4,0,0,4,4,2402.0,CONRADO HEITOR DE QUEIROZ/KAMAMULTDA; Fazenda Dois Irmãos - Córrego Seixas; Fazenda Galera 1; Galera Centrais Eletricas 1a
+Cuiabá,MT,1,0,0,1,1,2020.2,Guimarães 02
+Diamantino,MT,3,0,3,0,1,61300.0,Diamantino (Antiga Sumidouro); Matrinchã; Rio Claro (Antiga Perdidos)
+Figueirópolis d'Oeste,MT,1,0,1,0,1,19410.0,Figueirópolis
+Gaúcha do Norte,MT,1,0,0,1,1,220.0,São Carlos
+Guarantã do Norte,MT,6,0,6,0,5,68592.0,Braço Norte; Braço Norte II; Braço Norte III; Braço Norte IV; Braço Sul; Cachimbo
+Indiavaí,MT,4,1,3,0,4,187910.0,Figueirópolis; Indiavaí; Jauru; Salto
+Itaúba,MT,3,1,0,2,3,402458.0,ITAUBÁ; NOVA FRONTEIRA; Sinop
+Itiquira,MT,6,2,1,3,6,358630.0,Itiquira (Casas de Forças  I e  II); Michelin; Ponte de Pedra; SM-01; SM-06; Santa Gabriela
+Jaciara,MT,8,0,3,5,8,51729.2,Cachoeira da Fumaça; Cambará; Embaúba; Pequi; Sucupira; Água Brava; Água Clara; Água Prata
+Jauru,MT,4,1,3,0,4,194500.0,Indiavaí; Jauru; Ombreiras; Salto
+Juscimeira,MT,6,0,5,1,6,88838.0,Beleza; Sete Quedas Alta; São Lourenço (Antiga Zé Fernando); Água Brava; Água Clara; Água Prata
+Juína,MT,1,0,1,0,1,5300.0,Juína
+Lucas do Rio Verde,MT,3,0,2,1,3,54600.0,Aprovale - Associação Dos Produtores Do Vale Do Cedro; Canoa Quebrada; Foz do Cedro (Antiga A1E8)
+Nortelândia,MT,2,0,1,1,2,18808.0,Diamante; Santana I
+Nova Canaã do Norte,MT,1,1,0,0,1,300000.0,Colíder
+Nova Lacerda,MT,3,0,1,2,3,30020.0,MAX-01 (Nova Lacerda); Salto Corgão; Saxão
+Nova Marilândia,MT,1,0,1,0,1,10500.0,Maracanã
+Nova Maringá,MT,2,0,1,1,2,22800.0,DUAS PONTES; Inxú
+Nova Monte Verde,MT,2,0,2,0,2,57000.0,Cabeça de Boi; Da Fazenda
+Nova Mutum,MT,1,0,1,0,1,14000.0,Nova Mutum
+Nova Ubiratã,MT,1,0,1,0,1,6660.0,ARS
+Novo Mundo,MT,4,0,4,0,2,50160.0,Braço Norte III; Braço Norte IV; Nhandu; Rochedo
+Novo São Joaquim,MT,7,0,0,7,7,8160.0,Desiderio; Dona Assunta; Itaquerê I; Itaquerê II; Matula; Noidore; Salto Belo
+Paranatinga,MT,5,0,1,4,5,4852.4,Corredeira do Noronha; Culuene; José Carlos Guimarães; Ronuro; Santiago Fazenda Agrochapada
+Paranaíta,MT,2,2,0,0,2,2519800.0,São Manoel; Teles Pires
+Pedra Preta,MT,1,0,1,0,1,24435.0,Engenheiro José Gelásio da Rocha
+Pontes e Lacerda,MT,3,1,2,0,2,153000.0,Guaporé; Nova Guaporé; Otacílio Lucion
+Porto dos Gaúchos,MT,1,0,0,1,1,167.4,Rancho Fundo
+Poxoréo,MT,2,0,2,0,2,9320.0,Poxoréo (José Fragelli); Primavera
+Primavera do Leste,MT,3,0,3,0,2,17010.0,Culuene; Primavera; Pucon 2
+Querência,MT,1,0,0,1,1,56.25,Cocal (75 Kw)
+Rondonópolis,MT,2,0,2,0,2,51035.0,Engenheiro José Gelásio da Rocha; Rondonópolis
+Rosário Oeste,MT,2,1,0,1,2,210120.0,Fazenda São José; Manso
+Salto do Céu,MT,1,0,0,1,1,3520.8,Caramujo
+Santo Antônio do Leste,MT,2,0,0,2,2,2900.0,Dona Assunta; Rio Suspiro
+Santo Antônio do Leverger,MT,9,0,5,4,7,51660.2,Glória; Guimarães 02; Mantovilis; Mestre; Mutum I; Pratinha (Antiga Colibri); Santa Cecília; Senador Jonas Pinheiro (Caeté); São Tadeu I
+Sapezal,MT,14,1,11,2,13,233518.0,Buriti; Cidezal; Ilha Comprida; Jesuíta; Mato Grosso (Antiga Cachoeirão); Parecis; Rondon; Santa Lúcia; Santa Lúcia II; Sapezal; Segredo; Telegráfica; Tucunaré
+Sorriso,MT,3,0,2,1,3,52249.6,Canoa Quebrada; Fazenda Sao Jose I - Sorriso; Foz do Cedro (Antiga A1E8)
+São José do Rio Claro,MT,3,0,1,2,3,33224.0,Agromar; Buritizal; Rio Claro (Antiga Perdidos)
+Tabaporã,MT,3,0,0,3,3,1553.6,Mercedes I e II; PICCINI; PICCINI V
+Tangará da Serra,MT,10,2,7,1,7,171330.0,Graça Brennand (Antiga Terra Santa); Juba I; Juba II; Juba IV; Jubinha III; Pampeana; Pegoraro; Recanto; Rio do Sapo; Sudamata
+Tesouro,MT,1,0,0,1,1,675.0,Cachoeirinha
+Torixoréu,MT,1,0,1,0,1,2400.0,São Domingos (Torixoréo)
+Vale de São Domingos,MT,1,0,1,0,0,7000.0,Alto Guaporé 2
+Água Boa,MT,1,0,0,1,1,24.6,Pé de Serra
+Almeirim,PA,1,1,0,0,1,392950.0,Santo Antônio do Jari
+Altamira,PA,2,1,1,0,2,11253100.0,Belo Monte; Salto Três de Maio
+Belterra,PA,1,0,0,1,1,100.0,Jatuarana
+Dom Eliseu,PA,1,0,0,1,1,72.0,Barragem Boas Novas
+Jacareacanga,PA,2,2,0,0,2,2519800.0,São Manoel; Teles Pires
+Novo Progresso,PA,3,0,2,1,3,42000.0,Brigadeiro Velloso III; Salto Buriti; Salto Curuá
+Paragominas,PA,1,0,0,1,1,900.0,Jonacir Dalmaso
+Santarém,PA,2,1,0,1,2,42850.0,Cachoeira do Aruã; Curuá-Una
+Tucuruí,PA,1,1,0,0,1,8535000.0,Tucuruí
+Vitória do Xingu,PA,1,1,0,0,1,11233100.0,Belo Monte
+Amaraji,PE,1,0,1,0,0,8850.0,Amaraji
+Bonito,PE,1,0,0,1,1,960.0,Humaytá
+Catende,PE,1,0,0,1,1,448.0,Serra do Espelho
+Cortês,PE,1,0,0,1,1,960.0,Humaytá
+Cumaru,PE,1,0,0,1,1,1000.0,Jucazinho
+Escada,PE,2,0,0,2,2,1044.0,Pirapama; Pé de Serra
+Gameleira,PE,1,0,1,0,1,1224.0,Pau Sangue
+Ibimirim,PE,1,0,0,1,1,797.64,Poço da Cruz
+Jaqueira,PE,2,0,0,2,2,612.0,Moças; Serra do Espelho
+Jatobá,PE,1,1,0,0,1,1479600.0,Luiz Gonzaga (Itaparica)
+Joaquim Nabuco,PE,1,0,1,0,1,6500.0,Pedra Furada
+Petrolândia,PE,1,1,0,0,1,1479600.0,Luiz Gonzaga (Itaparica)
+Primavera,PE,1,0,0,1,1,880.0,Mariquita
+Ribeirão,PE,1,0,1,0,1,6500.0,Pedra Furada
+Rio Formoso,PE,1,0,1,0,1,5751.0,Luiz Dias Lins (Antiga Manopla)
+Sirinhaém,PE,1,0,0,1,1,4500.0,Gindaí
+Guadalupe,PI,1,1,0,0,1,237300.0,Boa Esperança (Antiga Castelo Branco)
+Anahy,PR,1,0,1,0,1,9850.0,Zeca Golin (Antiga Fazenda do Salto)
+Andirá,PR,1,1,0,0,1,72000.0,Canoas II
+Antonina,PR,2,1,0,1,2,261000.0,Cotia; Governador Pedro Viriato Parigot de Souza (Capivari/Cachoeira)
+Arapoti,PR,2,0,1,1,1,13000.0,Foz da Anta; Tigrinho
+Assis Chateaubriand,PR,1,0,0,1,1,736.0,do garcia
+Bandeirantes,PR,1,0,1,0,1,4200.0,Salto Bandeirantes
+Bituruna,PR,1,1,0,0,1,1676000.0,Governador Bento Munhoz da Rocha Netto (Foz do Areia)
+Boa Ventura de São Roque,PR,6,0,2,4,6,32590.0,Cris; Itaguaçu; Pedrinho I; Rio Bonito I; Rio Bonito I I; Rio Bonito I I I
+Bocaiúva do Sul,PR,1,0,1,0,1,23000.0,Novo Horizonte
+Bom Sucesso,PR,1,0,0,1,1,174.8,São Pedro
+Bom Sucesso do Sul,PR,2,0,2,0,2,11270.0,Jacaré; Vila Galupo
+Cambará,PR,1,1,0,0,1,73800.0,Salto Grande (Lucas Nogueira Garcez)
+Campina Grande do Sul,PR,1,0,1,0,1,23000.0,Novo Horizonte
+Campina do Simão,PR,1,0,0,1,1,40.0,Nerinha
+Campo Largo,PR,2,0,2,0,0,15840.0,Açungui 2E; Açungui 2F
+Campo Magro,PR,1,0,1,0,0,9900.0,Açungui 2F
+Campo Mourão,PR,3,1,1,1,3,23425.620000000003,Casali II; Mourão I; Salto Natal
+Candói,PR,9,2,4,3,9,204062.0,Barra; Candói; Cavernoso II; Cavernoso III; Cavernoso IV; Salto Curucaca (Antiga Salto Curucaca II); Santa Clara; Santa Clara I; Taguá
+Cantagalo,PR,3,0,2,1,3,12820.0,Bainha; Cavernoso III; Cavernoso IV
+Capanema,PR,1,1,0,0,1,350200.0,Baixo Iguaçu
+Capitão Leônidas Marques,PR,2,2,0,0,2,1590200.0,Baixo Iguaçu; Governador José Richa (Salto Caxias)
+Cascavel,PR,2,0,1,1,1,6159.0,Padovani; São Salvador
+Castro,PR,4,0,2,2,4,14336.0,Castro; Paina (Socavão); Paina II; Pulo
+Cerro Azul,PR,1,0,1,0,0,6300.0,Ribeirão Bonito
+Chopinzinho,PR,1,0,0,1,1,323.0,Salto São Luiz
+Cianorte,PR,1,0,1,0,0,6000.0,Cianorte
+Clevelândia,PR,8,0,2,6,7,55735.42,ARFIMAC; Camifra I; Lontras; PAMPEANA; Pinho Fleck; Salto Claudelino; Tito; Trindade Baixo Jusante
+Colorado,PR,1,0,1,0,1,10000.0,Córrego Fundo
+Corbélia,PR,3,0,0,3,3,5158.0,Bandiera Ronfim; Melissa; PINDORAMA
+Coronel Domingos Soares,PR,2,0,1,1,2,31730.0,Foz do Estrela; Salto Estrela
+Coronel Vivida,PR,1,0,0,1,1,828.0,Salto da Alemoa
+Cruz Machado,PR,1,0,0,1,1,940.0,Salto do Vau
+Cruzeiro do Iguaçu,PR,2,0,2,0,2,37072.0,Arturo Andreoli (Antiga Júlio de Mesquita Filho); Generoso
+Diamante do Norte,PR,1,1,0,0,1,354000.0,Rosana
+Foz do Iguaçu,PR,1,1,0,0,1,7000000.0,Itaipu (Parte Brasileira)
+Foz do Jordão,PR,3,1,0,2,3,126963.0,Barra; Fundão; Fundão I
+Francisco Beltrão,PR,2,0,1,1,2,6120.0,Dario; Vila Galupo
+General Carneiro,PR,5,0,0,5,5,3314.76,Calplast; Jangada I; Jangada II; Joaquim Fernandes Luiz; Salto Lili
+Goioxim,PR,1,0,1,0,0,5200.0,Cavernoso VIII
+Guamiranga,PR,1,0,0,1,1,4191.52,Salto Rio Branco
+Guarapuava,PR,10,1,3,6,8,76241.0,Carlota; Cavernoso VIII; Dalba; Enxadrista; Parque I; Pinho Past; Rio das Mortes; Salto Curucaca (Antiga Salto Curucaca II); São Jerônimo; Três Capões Novo
+Guaratuba,PR,1,1,0,0,1,36000.0,Guaricana
+Honório Serpa,PR,3,0,1,2,3,31353.82,Camifra I; Pinho Fleck; Tito
+Iguatu,PR,1,0,1,0,1,9850.0,Zeca Golin (Antiga Fazenda do Salto)
+Itambaracá,PR,1,1,0,0,1,82500.0,Canoas I
+Itapejara d´Oeste,PR,2,0,1,1,2,7260.0,Chopim I; Vitorino
+Itaperuçu,PR,2,0,2,0,0,17900.0,Açungui 2F; Caratuva
+Jacarezinho,PR,1,1,0,0,1,44000.0,Ourinhos
+Jaguariaíva,PR,5,0,3,2,4,41228.76,Beira Rio; Macacos; Nova Jaguariaíva; Pesqueiro; Velha
+Jussara,PR,1,0,1,0,0,6000.0,Cianorte
+Lapa,PR,2,0,1,1,2,28220.0,Lucia Cherobim; Salto Caiacanga
+Laranjal,PR,1,0,1,0,1,19856.59,Cantú 2
+Laranjeiras do Sul,PR,1,0,1,0,1,14200.0,Cobre Km 19
+Mangueirinha,PR,6,1,4,1,6,1307500.0,Canhadão; Covó; Forquilha; Governador Ney Aminthas de Barros Braga (Segredo); Invernadinha; Tigre
+Manoel Ribas,PR,3,0,0,3,3,6000.0,Benedito; Cristalino; Evo
+Marechal Cândido Rondon,PR,1,0,1,0,1,3700.0,Moinho
+Marilândia do Sul,PR,1,0,0,1,1,970.0,Rio das Antas
+Marmeleiro,PR,3,0,1,2,3,6640.0,Bedim; de Cima; do Park
+Marquinho,PR,1,0,1,0,1,14200.0,Cobre Km 19
+Morretes,PR,1,0,0,1,1,4800.0,Marumbi
+Nossa Senhora das Graças,PR,1,0,1,0,1,4200.0,Salto Bandeirantes
+Nova Aurora,PR,2,0,0,2,2,2998.0,Melissa; PERBONE
+Nova Cantu,PR,2,0,2,0,1,29856.59,Cantu 1; Cantú 2
+Nova Prata do Iguaçu,PR,1,1,0,0,1,1240000.0,Governador José Richa (Salto Caxias)
+Ortigueira,PR,1,1,0,0,1,361000.0,Governador Jayme Canet Junior (Antiga MAUÁ)
+Ouro Verde do Oeste,PR,1,0,1,0,1,14000.0,São Francisco
+Palmas,PR,4,0,0,4,4,4318.4,Lontras; Posto Horizonte; Salto Estrela; Salto Santo Antônio
+Paranacity,PR,1,0,1,0,1,10000.0,Córrego Fundo
+Paranapoema,PR,2,0,2,0,1,17300.0,Córrego Fundo; Itaguajé
+Peabiru,PR,1,0,0,1,1,4000.0,Ouro Branco
+Pinhalão,PR,1,0,0,1,1,846.4,SANTA RITA DE CASSIA
+Pinhão,PR,9,3,1,5,8,1940864.8,Fundão; Fundão I; Governador Bento Munhoz da Rocha Netto (Foz do Areia); Reinhofer; Rio Capivara; Salto São Pedro; Santa Clara; Santa Clara I; São Jerônimo
+Pitanga,PR,1,0,1,0,1,14000.0,Itaguaçu
+Ponta Grossa,PR,2,0,1,1,2,3165.55,Pitangui; São Jorge
+Porecatu,PR,1,1,0,0,1,643000.0,Capivara (Escola de Engenharia Mackenzie)
+Porto Amazonas,PR,1,0,0,1,1,220.0,Salto Caiacanga
+Porto Vitória,PR,1,0,0,1,1,1190.0,Salto do Jardim
+Prudentópolis,PR,3,0,3,0,3,64435.0,Confluência; Dois Saltos; São João II
+Quedas do Iguaçu,PR,1,1,0,0,1,1103670.0,Salto Osório
+Renascença,PR,1,0,1,0,1,6000.0,Bedim
+Reserva do Iguaçu,PR,3,1,1,1,3,1266896.0,Derivação do Rio Jordão; Governador Ney Aminthas de Barros Braga (Segredo); Reinhofer
+Ribeirão Claro,PR,1,1,0,0,1,414000.0,Chavantes
+Rio Branco do Ivaí,PR,1,0,1,0,0,15000.0,Clairto Zonta
+Rio Branco do Sul,PR,1,0,0,1,1,1500.0,Santa Cruz
+Santa Fé,PR,1,0,1,0,1,4200.0,Salto Bandeirantes
+Santa Inês,PR,1,1,0,0,1,525000.0,Taquaruçu (Escola Politécnica)
+Santa Maria do Oeste,PR,1,0,0,1,1,40.0,Nerinha
+Saudade do Iguaçu,PR,1,1,0,0,1,1420000.0,Salto Santiago
+Sengés,PR,4,0,2,2,3,32690.0,Beira Rio; Jaguaricatu I; Jaguaricatu II; Macacos
+São Jorge d'Oeste,PR,1,0,1,0,1,8000.0,Generoso
+São José dos Pinhais,PR,1,0,1,0,1,18000.0,Chaminé
+São João,PR,1,0,1,0,1,29810.0,Bela Vista
+São Pedro do Iguaçu,PR,1,0,0,1,1,459.0,Padovani
+Tamarana,PR,1,0,1,0,1,10000.0,Apucaraninha
+Telêmaco Borba,PR,2,1,1,0,2,377319.0,Governador Jayme Canet Junior (Antiga MAUÁ); Salto Mauá
+Tibagi,PR,3,2,1,0,1,111018.0,Fortaleza; Santa Branca; Tibagi Montante
+Toledo,PR,3,0,1,2,2,18300.0,Nova Geração; São Francisco; Toledo Energia Renovavel
+Tomazina,PR,1,0,1,0,0,12000.0,Foz da Anta
+Tuneiras do Oeste,PR,1,0,1,0,0,8000.0,Água Tremida
+Turvo,PR,9,0,3,6,9,79345.0,Boa Vista II; CABEÇA DE PATO; Cachoeira; Confluência; Cris; Paredinha; Rio Bonito I; Rio Bonito I I; Rio Bonito I I I
+União da Vitória,PR,2,0,0,2,2,1025.0,Palmital do Meio; Salto do Vau
+Verê,PR,1,0,1,0,1,29810.0,Bela Vista
+Virmond,PR,4,0,3,1,4,31308.0,Cavernoso; Cavernoso II; Cavernoso III; Tapera 2a
+Areal,RJ,2,0,2,0,2,27000.0,Areal; Piabanha
+Bom Jardim,RJ,4,0,2,2,4,38248.2,Bom Jardim; Santa Rosa II; Santo Antônio; São José
+Bom Jesus do Itabapoana,RJ,4,1,3,0,4,99028.0,Calheiros; Franca Amaral; Pirapetinga; Rosal
+Campos dos Goytacazes,RJ,1,0,1,0,1,19000.0,Pedra do Garrafão
+Cantagalo,RJ,2,0,0,2,2,2750.0,Euclidelândia; Pedra Lavada
+Carmo,RJ,2,1,0,1,2,190169.0,Ilha dos Pombos; Quilombo
+Comendador Levy Gasparian,RJ,3,0,3,0,3,74000.0,Bonfante; Monte Serrat; Santa Fé I
+Cordeiro,RJ,1,0,1,0,1,30000.0,Santa Rosa II
+Itaperuna,RJ,1,0,0,1,1,1600.0,Comendador Venãncio
+Itatiaia,RJ,1,1,0,0,1,216000.0,Funil
+Magé,RJ,1,0,0,1,1,686.0,Andorinhas II
+Miguel Pereira,RJ,1,0,0,1,1,800.0,Santa Branca
+Nova Friburgo,RJ,3,0,1,2,2,11864.0,Hans; Jph Catete; Xavier
+Paracambi,RJ,1,0,1,0,1,25000.0,Paracambi
+Paraíba do Sul,RJ,2,0,1,1,2,7480.0,Fagundes; Secretário
+Paty do Alferes,RJ,1,0,0,1,1,1000.0,Avelar
+Petrópolis,RJ,1,0,0,1,1,796.0,Rio Bonito Tres Vales
+Piraí,RJ,4,3,1,0,4,628918.0,Fontes Nova; Lajes (Fontes Velha); Nilo Peçanha; Pereira Passos
+Resende,RJ,1,1,0,0,1,216000.0,Funil
+Rio Claro,RJ,2,0,2,0,1,20749.0,Braço; Fazenda Santana
+Santa Maria Madalena,RJ,4,0,4,0,3,39747.0,Caju; Jambo; São Sebastião do Alto; Tudelândia
+Sapucaia,RJ,1,1,0,0,1,333700.0,Simplício
+Sumidouro,RJ,3,0,0,3,3,71.53999999999999,Dona Mariana; Fazenda Santa Cruz; Nossa Sra do Paquequer
+São José do Vale do Rio Preto,RJ,1,0,1,0,1,14000.0,Poço Fundo
+São Sebastião do Alto,RJ,3,0,3,0,2,37200.0,Caju; Jambo; São Sebastião do Alto
+Teresópolis,RJ,1,0,0,1,1,49.8,Lito Mendes
+Trajano de Morais,RJ,1,0,1,0,1,21000.0,Macabu
+Três Rios,RJ,2,1,1,0,2,363700.0,Santa Fé I; Simplício
+Valença,RJ,1,0,0,1,1,680.0,Santa Rosa
+Açu,RN,1,0,1,0,1,4700.0,Armando Ribeiro
+Alta Floresta d´Oeste,RO,9,0,6,3,9,42020.0,Alta Floresta; Cachoeira Cachimbo Alto; Fazenda Figueirão; Figueira; Monte Belo; Rio Branco; Saldanha; Santa Luzia D’oeste; Ângelo Cassol
+Alto Alegre do Parecis,RO,1,0,0,1,1,3000.0,Santa Luzia D’oeste
+Ariquemes,RO,2,0,2,0,2,37000.0,Canaã; Jamari
+Chupinguaia,RO,4,0,3,1,3,38860.0,CHUPINGUAIA; Cascata Chupinguaia; Cesar Filho; Urubu
+Colorado do Oeste,RO,3,0,0,3,3,4430.0,Castaman II; Margarida Lltda; Rio Enganado
+Corumbiara,RO,1,0,1,0,1,9600.0,Cascata Chupinguaia
+Monte Negro,RO,1,0,1,0,1,17010.0,Santa Cruz de Monte Negro
+Parecis,RO,1,0,1,0,1,7000.0,Cesar Filho
+Pimenta Bueno,RO,3,1,2,0,2,129200.0,Primavera; Rondon II; São Paulo do Pimenta Bueno
+Pimenteiras do Oeste,RO,1,0,0,1,1,3804.42,São João PA
+Porto Velho,RO,3,3,0,0,3,7534750.0,Jirau; Samuel; Santo Antônio
+Primavera de Rondônia,RO,2,0,2,0,1,55700.0,Primavera; São Paulo do Pimenta Bueno
+Vilhena,RO,8,0,2,6,7,54940.2,Apertadinho; Cabixi I; Cachoeira; Cachoeira do Cambara; Marcol; Martinuv; Poço; Rio Vermelho
+São João da Baliza,RR,1,1,0,0,1,10000.0,Alto Jatapu
+Agudo,RS,1,1,0,0,1,125000.0,Dona Francisca
+Ajuricaba,RS,1,0,0,1,1,1000.0,MAMBUCA
+Almirante Tamandaré do Sul,RS,1,0,0,1,1,2880.0,Mata Cobra
+Alpestre,RS,1,1,0,0,1,855000.0,Foz do Chapecó
+André da Rocha,RS,4,0,4,0,3,38625.0,Chimarrão; Fazenda Velha; Jardim; Santa Carolina
+Anta Gorda,RS,1,0,1,0,0,30000.0,Monte Cuco
+Antônio Prado,RS,1,0,1,0,1,26000.0,Da Ilha
+Aratiba,RS,1,1,0,0,1,1450000.0,Itá
+Barracão,RS,4,0,4,0,4,66900.0,Esmeralda; Moinho; Ouro; São Bernardo
+Barão do Triunfo,RS,1,0,0,1,1,2250.0,Morrinhos
+Bento Gonçalves,RS,3,2,0,1,3,230810.0,14 de Julho; Barracão; Monte Claro
+Boa Vista do Cadeado,RS,2,0,0,2,2,6600.0,Formigueiro; Igrejinha
+Bom Jesus,RS,6,0,6,0,3,96520.0,Cerquinha II; Cerquinha III; Passo do Meio; Pezzi; Serra dos Cavalinhos I; Touros IV
+Braga,RS,2,0,2,0,2,28590.3,Marco Baldo; Toca do Tigre
+Camargo,RS,1,0,0,1,1,200.0,Camargo
+Campestre da Serra,RS,1,0,0,1,1,2000.0,Trabuco
+Campina das Missões,RS,1,0,0,1,1,953.1,Caraguatá
+Campo Novo,RS,4,0,3,1,4,37660.3,Carlos Gonzatto (Antiga Turvo 6); Marco Baldo; Toca do Tigre; Turvo
+Canela,RS,2,2,0,0,2,62420.0,Bugres; Canastra
+Capão Bonito do Sul,RS,1,0,0,1,1,420.0,Dona Mirian
+Casca,RS,1,0,0,1,1,990.0,Santo Antônio de Casca
+Caxias do Sul,RS,6,0,3,3,6,53354.0,Bertussi; Criúva; Galopolis; Galópolis; Palanquinho; Rio São Marcos
+Cerro Grande,RS,1,0,1,0,0,25406.91,Linha Aparecida
+Chiapeta,RS,1,0,0,1,1,680.0,Nilo BonfantI (Antiga Cascata do Buricá)
+Condor,RS,4,0,0,4,4,3022.0,João Do Passo; MAMBUCA; Rio Alegre; Rio Palmeiras
+Coqueiro Baixo,RS,1,0,1,0,0,6400.0,Vale do Leite
+Coronel Barros,RS,1,0,1,0,1,23600.0,Linha Onze Oeste
+Coronel Bicaco,RS,1,0,0,1,1,70.0,Turvo
+Cotiporã,RS,2,1,1,0,2,119500.0,14 de Julho; Cotiporã
+Crissiumal,RS,1,0,0,1,1,1000.0,Caa Yari
+Cristal do Sul,RS,1,0,0,1,1,520.0,Braga
+Dezesseis de Novembro,RS,1,1,0,0,1,77000.0,Passo São João
+Dois Irmãos,RS,1,0,0,1,1,1270.0,Picada 48
+Dois Lajeados,RS,1,0,1,0,1,19500.0,Linha Emília
+Encruzilhada do Sul,RS,1,0,0,1,1,4860.0,Abranjo I
+Entre Rios do Sul,RS,1,1,0,0,1,226000.0,Passo Fundo
+Entre-Ijuís,RS,2,0,2,0,2,13600.0,Ijuizinho; Rincão
+Erechim,RS,1,0,0,1,1,144.0,Águas Termais da Cascata Nazzari
+Erval Seco,RS,7,0,3,4,6,28846.0,Edelweiss; Ferradura; Frederico João Cerutti SA; Guarita; Linha Granja Velha; Rio Fortaleza; Tambaú
+Esmeralda,RS,2,1,1,0,2,705000.0,Barra Grande; São Bernardo
+Estrela,RS,1,0,0,1,1,705.75,Boa Vista
+Eugênio de Castro,RS,1,0,1,0,1,1118.0,Ijuizinho
+Faxinalzinho,RS,1,1,0,0,1,74000.0,Monjolinho (Antiga Alzir dos Santos Antunes)
+Flores da Cunha,RS,1,0,0,1,1,1000.0,Dona Maria Piana
+Floriano Peixoto,RS,1,0,0,1,1,720.0,Abaúna
+Fontoura Xavier,RS,2,0,0,2,2,2060.0,Soledade; Taipinha
+Gaurama,RS,1,0,0,1,1,144.0,Águas Termais da Cascata Nazzari
+Getúlio Vargas,RS,1,0,0,1,1,94.0,Fazenda Santa Sofia
+Giruá,RS,1,0,0,1,1,439.9,Claudino Fernando Picolli
+Guaporé,RS,4,0,3,1,3,70667.2,Autódromo; Guaporé; Monte Cuco; São Paulo
+Guarani das Missões,RS,1,0,0,1,1,175.5,Giovelli Cia
+Ibiaçá,RS,1,0,0,1,1,800.0,Avante
+Ibirubá,RS,1,0,0,1,1,895.0,Cascata do Pinheirinho
+Ijuí,RS,6,1,4,1,6,58529.0,Andorinhas; José Barasuol (Antiga Linha 3 Leste); Linha Onze Oeste; Passo de Ajuricaba; RS-155; Sede II
+Independência,RS,1,0,0,1,1,3240.0,Buricá
+Inhacorá,RS,1,0,0,1,1,3240.0,Buricá
+Ipê,RS,2,0,1,1,2,28270.0,Faxinal; Saltinho RS
+Jaguari,RS,1,0,1,0,1,9800.0,Furnas do Segredo
+Jaquirana,RS,1,0,1,0,1,19000.0,Pezzi
+Jóia,RS,1,0,0,1,1,4850.0,Igrejinha
+Júlio de Castilhos,RS,6,0,5,1,6,82376.0,Cachoeira Cinco Veados; Engenheiro Ernesto Jorge Dreher; Engenheiro Henrique Kotzian; Ivaí; Quebra Dentes; Salto do Guassupi
+Lagoa Vermelha,RS,2,0,0,2,2,1200.0,Dona Mirian; Posto
+Liberato Salzano,RS,2,0,2,0,0,43207.95,Linha Aparecida; Linha Jacinto
+Machadinho,RS,1,0,1,0,1,13000.0,Forquilha IV
+Marau,RS,1,0,0,1,1,3200.0,Capiguí
+Maximiliano de Almeida,RS,4,1,2,1,3,1161600.0,Forquilha; Forquilha II; Forquilha IV; Machadinho
+Monte Alegre dos Campos,RS,2,0,2,0,2,54025.0,Serra dos Cavalinhos I; Serra dos Cavalinhos II
+Mormaço,RS,1,0,1,0,1,5200.0,Santo Antônio do Jacuí
+Muitos Capões,RS,6,0,5,1,5,50925.0,Chimarrão; Jardim; Lixiguana; Morro Grande; Saltinho; Santa Carolina
+Nonoai,RS,5,1,2,2,5,86950.0,Albano Machado; Cascata Das Andorinhas; Monjolinho (Antiga Alzir dos Santos Antunes); PASSO DO CERVO; Rio dos Índios
+Nova Bassano,RS,4,0,3,1,4,63000.0,Boa Fé; Caçador; Focchezan Energia; São Paulo
+Nova Palma,RS,1,1,0,0,1,125000.0,Dona Francisca
+Nova Prata,RS,2,0,0,2,2,1028.0,Catibiro; do Parque
+Nova Pádua,RS,1,1,0,0,1,130000.0,Castro Alves
+Nova Roma do Sul,RS,2,1,1,0,2,158000.0,Castro Alves; Jararaca
+Novo Barreiro,RS,1,0,0,1,1,280.0,Cascata do Barreiro
+Novo Tiradentes,RS,2,0,1,1,1,25676.91,Linha Aparecida; Moinho
+Não-Me-Toque,RS,1,0,0,1,1,280.0,Osvaldo Dino Pigozzi
+Palmeira das Missões,RS,1,0,0,1,1,280.0,Cascata do Barreiro
+Panambi,RS,2,0,0,2,2,1715.0,Caxambu; Rio Palmeiras
+Pinhal,RS,2,0,2,0,2,35900.0,Esmeralda; Moinho
+Pinhal Grande,RS,1,1,0,0,1,500400.0,Itaúba
+Pouso Novo,RS,1,0,1,0,0,6400.0,Vale do Leite
+Protásio Alves,RS,1,0,0,1,1,128.0,do Parque
+Putinga,RS,2,0,2,0,2,13100.0,Rastro de Auto; Salto Forqueta
+Quevedos,RS,3,0,3,0,3,48337.0,Cachoeira Cinco Veados; Quebra Dentes; Rincão São Miguel
+Redentora,RS,3,0,3,0,2,24006.0,Edelweiss; Ferradura; Tambaú
+Rio Grande,RS,1,0,0,1,1,700.0,Estancado
+Rodeio Bonito,RS,1,0,1,0,0,17801.04,Linha Jacinto
+Rolador,RS,1,1,0,0,1,51000.0,São José
+Roque Gonzales,RS,2,1,0,1,2,77776.0,Passo São João; Pirapó
+Salto do Jacuí,RS,4,2,2,0,4,368870.0,Engenheiro Ernesto Jorge Dreher; Engenheiro Henrique Kotzian; Jacuí; Passo Real
+Salvador das Missões,RS,2,1,0,1,2,51953.1,Caraguatá; São José
+Santa Maria do Herval,RS,1,0,0,1,1,1500.0,Herval
+Santa Rosa,RS,2,0,0,2,2,6750.0,Bela União(trincheira); Santo Antônio
+Santo Antônio do Palma,RS,1,0,0,1,1,112.0,Uzina do Maringa
+Santo Antônio do Planalto,RS,1,0,0,1,1,280.0,Osvaldo Dino Pigozzi
+Santo Ângelo,RS,1,0,0,1,1,439.9,Claudino Fernando Picolli
+Seberi,RS,3,0,0,3,3,2881.0,Carlos Bevilácqua; Frederico João Cerutti SA; Rio Fortaleza
+Serafina Corrêa,RS,2,0,2,0,2,46500.0,Boa Fé; Caçador
+Soledade,RS,2,0,0,2,2,2144.0,RP 1; Taipinha
+São Francisco de Paula,RS,9,0,6,3,9,143526.3,Cazuza Ferreira; Criúva; Palanquinho; Parque da Cachoeira; Passo do Inferno; Passo do Meio; Serra dos Cavalinhos I; Serra dos Cavalinhos II; Toca
+São Jerônimo,RS,1,0,0,1,1,2250.0,Morrinhos
+São José do Herval,RS,2,0,2,0,2,13100.0,Rastro de Auto; Salto Forqueta
+São José dos Ausentes,RS,2,0,2,0,0,12300.0,Silveira II; Silveira III
+São Marcos,RS,1,0,1,0,1,2200.0,Rio São Marcos
+São Martinho,RS,1,0,1,0,1,16227.0,Cachoeira Cinco Veados
+São Martinho da Serra,RS,2,0,2,0,2,21949.0,Rincão São Miguel; Salto do Guassupi
+Tapera,RS,1,0,0,1,1,1120.0,Colorado
+Taquaruçu do Sul,RS,1,0,0,1,1,1000.0,Linha Granja Velha
+Tio Hugo,RS,2,0,1,1,2,13800.0,Ernestina; Tio Hugo
+Tiradentes do Sul,RS,1,0,0,1,1,1000.0,Caa Yari
+Trindade do Sul,RS,1,0,1,0,1,3000.0,Albano Machado
+Três de Maio,RS,3,0,0,3,3,8330.0,Bela União(trincheira); Santa Rosa; Santo Antônio
+Vacaria,RS,1,0,1,0,0,5500.0,Bela Vista
+Veranópolis,RS,4,2,2,0,3,233365.0,Da Ilha; Foz do Prata; Jararaca; Monte Claro
+Victor Graeff,RS,2,0,2,0,2,8540.0,Cotovelo do Jacuí; Santo Antônio do Jacuí
+Vila Maria,RS,1,0,0,1,1,112.0,Uzina do Maringa
+Vista Alegre do Prata,RS,2,0,1,1,2,26205.0,Autódromo; São Domingos do Prata
+Áurea,RS,1,0,0,1,1,94.0,Fazenda Santa Sofia
+Abdon Batista,SC,2,2,0,0,2,1071900.0,Campos Novos; Garibaldi
+Abelardo Luz,SC,12,0,7,5,6,106470.3,Aparecida; Barreiros; Camifra II; Criciúma; Enercol; Ernesto Lavratti Neto; Ludesa; Mangueira de Pedra; Maria Luz; Pacheco; Prainha; Santa Rosa
+Agrolândia,SC,2,0,0,2,2,3490.0,Agropel; Serra Velha
+Anchieta,SC,2,0,2,0,2,12500.0,Garça Branca; Roncador
+Angelina,SC,9,1,3,5,9,56231.8,Alto Garcia; Angelina (Antiga Portobello - Corredeira do Encano); Barra Clara; Fartura; Garcia; Garcia de Angelina; Horst Bremer; Médio Garcia; Santa Ana
+Anita Garibaldi,SC,4,2,0,2,4,1572765.0,Antunes; Barra Grande; Campos Novos; Willy Faller
+Anitápolis,SC,1,0,0,1,1,2000.0,Varginha Jelu
+Antônio Carlos,SC,1,0,0,1,1,3006.0,Alto Farias
+Apiúna,SC,1,1,0,0,1,191890.0,Salto Pilão
+Arabutã,SC,2,0,0,2,2,2410.0,Arabutã I; Rafael Arabutã
+Arroio Trinta,SC,1,0,0,1,1,1000.0,Arroio Trinta
+Arvoredo,SC,3,0,3,0,3,48680.0,Alto Irani; Arvoredo; Rodeio Bonito
+Bandeirante,SC,3,0,0,3,3,9600.0,Bandeirante; Belmonte; Prata
+Barra Bonita,SC,1,0,1,0,1,8700.0,São Jorge
+Belmonte,SC,1,0,0,1,1,3600.0,Belmonte
+Benedito Novo,SC,8,0,5,3,8,63851.3,Alto Benedito II; Alto Benedito Novo; Alto Benedito Novo I; Boa Vista; Ilha (ceesam); LIBERDADE; Rodeio; Águas da Serra
+Blumenau,SC,1,1,0,0,1,29280.0,Salto (Salto Weissbach)
+Bom Jesus,SC,1,0,1,0,1,4000.0,Passo Ferraz
+Braço do Norte,SC,1,0,0,1,1,1299.99,Teodoro Schlickmann
+Brunópolis,SC,1,1,0,0,1,141900.0,São Roque
+Campo Belo do Sul,SC,3,0,2,1,2,32600.0,Campo Belo; João Borges; TAIMBÉ 2
+Campo Erê,SC,3,0,0,3,3,1455.2,Crelin; DALL'IGNA; Palma Sola
+Campos Novos,SC,9,1,3,5,9,936616.6,Agudo; Barra do Leão; Camboatá; Campos Novos; Iguaçu-Hidro 2/3; Ivo Silveira; Pito; São Carlos; Tupitinga
+Capinzal,SC,3,0,2,1,1,33796.2,Alto Alegre; Herval; Piratuba
+Capão Alto,SC,3,0,1,2,0,16800.0,Campo Belo; Morro Agudo; Pinheiral
+Catanduvas,SC,1,0,0,1,1,528.0,Kunz
+Caxambu do Sul,SC,1,0,0,1,1,1000.0,Lambedor
+Caçador,SC,5,0,0,5,5,2579.15,Bom Sucesso; Fábrica; Goiabeira; Salto do Timbo; Taquara Verde
+Celso Ramos,SC,2,1,0,1,2,881765.0,Antunes; Campos Novos
+Chapecó,SC,6,0,1,5,6,24830.0,Aurora; Barra Carneiro; Bom Retiro Chapeco; Rodeio Bonito; Rondinha Chalana; Índio Condá
+Concórdia,SC,2,0,0,2,2,3702.0,Laje de Pedra; Pinhal
+Corupá,SC,1,0,0,1,1,1008.0,Santo Antônio Sc
+Curitibanos,SC,11,2,1,8,11,206011.3,Ado Popinhaki; Arroio dos Cachorros; Bossardi; Cadoriti; Marombas I; Marombas II; Pery; Rio Das Pedras; Rio das Pedras; Sbravati; São Roque
+Dona Emma,SC,2,0,0,2,2,4066.0,Helena Kuhlemann; Karl Kuhlemann
+Doutor Pedrinho,SC,2,0,2,0,2,4797.0,Salto Donner I; Salto Donner II
+Erval Velho,SC,4,0,0,4,4,6384.0,Antônio Viel; Camboatá; Salto do Leão; Spessatto
+Faxinal dos Guedes,SC,7,0,4,3,7,59875.0,Abrasa; Barra das Águas; Cachoeirinha; Celso Ramos; Faxinal; Plano Alto; Santa Laura
+Flor do Sertão,SC,2,0,2,0,2,21600.0,Flor do Sertão; Âmbar
+Fraiburgo,SC,1,0,0,1,1,2836.0,Alirio Sens
+Frei Rogério,SC,3,1,0,2,3,142700.0,Iguaçu-Salto Correntes-Hidro1; Iguaçu-salto Correntes-hidro1; São Roque
+Guaraciaba,SC,2,0,1,1,2,7500.0,Garça Branca; Sede das Flores
+Guatambú,SC,5,0,0,5,5,13159.98,Bom Retiro Chapeco; Dona Clemes; Macuco; Parisotto; Rio Tigre
+Ibicaré,SC,2,0,2,0,1,18965.0,Ibicaré; Linha Rica
+Ibirama,SC,2,1,1,0,2,212890.0,Ibirama; Salto Pilão
+Indaial,SC,1,0,1,0,0,27000.0,Estação Indaial
+Ipira,SC,2,0,2,0,1,40000.0,Pira; Piratuba
+Ipuaçu,SC,3,1,2,0,3,178500.0,Ludesa; Quebra Queixo; Santa Luzia Alto
+Ipumirim,SC,1,0,0,1,1,4950.0,Jacutinga
+Iraceminha,SC,2,0,1,1,1,11000.0,Fortaleza; IRACEMA
+Irineópolis,SC,3,0,3,0,1,50500.0,Espraiado; Rio Timbó; Tamanduá
+Itaiópolis,SC,1,0,0,1,1,4500.0,Salto I
+Ituporanga,SC,1,0,0,1,1,0.99,Aguas Negras
+Itá,SC,2,1,0,1,2,1452800.0,Itá; Uvaia
+Jaborá,SC,1,0,0,1,1,700.0,Brancher
+Jaraguá do Sul,SC,3,0,1,2,3,13830.0,ITAPOCUZINHO IIA; Itapocuzinho I; Itapocuzinho II
+Jardinópolis,SC,2,0,1,1,2,6360.0,Aparecida I; Barrinha
+Joaçaba,SC,3,0,0,3,3,3515.0,Mario Fett; Santa Anna; São Francisco
+Joinville,SC,2,0,1,1,2,12480.0,ITAPOCUZINHO IIA; Piraí
+Lacerdópolis,SC,3,0,2,1,3,25139.0,Antônio Viel; Lacerdópolis; São Carlos
+Lages,SC,5,0,5,0,3,63999.0,Boa Vista; Caveiras; João Borges; Malacara; Santo Cristo
+Lebon Régis,SC,2,0,1,1,1,6835.0,Lebon Régis; RUDOLF LINDNER
+Leoberto Leal,SC,2,0,0,2,2,5500.0,Figueira do Tigre; Santa Paulina
+Lontras,SC,2,1,1,0,1,201890.0,Rio do Sul; Salto Pilão
+Luiz Alves,SC,1,0,0,1,1,412.5,Acearia Frederico Missner (Antiga Rio Luiz Alves)
+Luzerna,SC,2,0,0,2,2,1805.0,Santa Anna; São Francisco
+Mafra,SC,1,0,0,1,1,420.0,São Lourenço
+Major Gercino,SC,3,0,2,1,2,38170.0,Angelina (Antiga Portobello - Corredeira do Encano); Karam; São Sebastião
+Maravilha,SC,1,0,0,1,1,950.0,Rio Bonito
+Matos Costa,SC,4,0,1,3,4,10893.5,Calplast; Pardos; Rio Preto; Salto Lili
+Mirim Doce,SC,2,0,0,2,2,1762.0,Mirim Doce; Salto do Taió
+Modelo,SC,1,0,0,1,1,710.0,PETINGA
+Nova Itaberaba,SC,1,0,1,0,0,24001.0,Nova Erechim
+Nova Trento,SC,4,0,1,3,3,14862.6,Aguti; Nova Trento; São Sebastião; São Valentim
+Ouro,SC,3,0,3,0,0,50393.0,Alto Alegre; Piratuba; Águas de Ouro
+Ouro Verde,SC,4,0,1,3,4,19660.0,Armando Selig; Faxinal; Hervalzinho; Santa Laura
+Palma Sola,SC,5,0,0,5,5,3365.2,Crelin; DALL'IGNA; Detofol; Palma Sola; Wasser Kraft
+Paraíso,SC,2,0,1,1,2,7700.0,Paraíso; Salto das Flores
+Passos Maia,SC,6,0,5,1,5,50430.0,Dalapria; Ponte Serrada; Rondinha; Santa Rosa; Taborda; Victor Baptista Adami (Antiga Passos Maia)
+Pedras Grandes,SC,2,0,0,2,2,460.0,AZL Zanella; Daltro Bianchini
+Peritiba,SC,1,0,0,1,1,1010.5,Rancho Grande Ger
+Petrolândia,SC,1,0,0,1,1,1840.0,Palheiros Klabin
+Pinheiro Preto,SC,1,0,0,1,1,828.0,Força e Luz São Pedro
+Piratuba,SC,2,1,1,0,1,1156000.0,Machadinho; Piratuba
+Pomerode,SC,1,0,0,1,1,129.6,Weiku
+Ponte Alta,SC,1,0,0,1,1,990.0,Arroio dos Cachorros
+Ponte Alta do Norte,SC,1,0,0,1,1,999.0,Casagrande SA
+Ponte Serrada,SC,3,0,1,2,2,13550.0,CGH  Rio do Mato; Sagrado Coração de Jesus; São Luiz
+Porto União,SC,7,0,2,5,7,20947.9,Baitaca; Pardos; Rio Bonito; Rio Timbó; Salto Pintado; São Domingos; Tamanduá
+Presidente Nereu,SC,1,0,0,1,1,1000.0,Bertoldo Jacobsen
+Princesa,SC,1,0,0,1,1,55.0,Princesa
+Quilombo,SC,1,0,0,1,1,1000.0,Limoeiro
+Rio Fortuna,SC,5,0,2,3,5,26200.0,Barra do Rio Chapéu; Rio Chapéu; Rio Fortuna; São Mauricio; Wiggers
+Rio Negrinho,SC,3,0,0,3,3,2512.0,Bituva; Rio Preto; Salto Grande
+Rio das Antas,SC,1,0,0,1,1,320.0,Rio das Antas Energética
+Rio do Campo,SC,2,0,0,2,2,1825.0,G & D; Rio Verde
+Rio dos Cedros,SC,3,2,1,0,2,57002.0,Arrozeira Meyer; Cedros (Rio dos Cedros); Palmeiras
+Rodeio,SC,1,0,1,0,1,9750.0,Rodeio
+Romelândia,SC,3,0,3,0,3,18900.0,Jaspe; São Jorge; Âmbar
+Santa Cecília,SC,6,0,0,6,6,8512.4,CENTRAL III; Cadoriti; Central I; Central II; Frascal; POLPA PAPEIS
+Santa Rosa de Lima,SC,3,0,2,1,3,25950.0,Barra do Rio Chapéu; Nova Fátima; Santa Rosa
+Santa Terezinha,SC,2,0,0,2,2,5490.0,Rio Itaiozinho; Salto I
+Saudades,SC,1,0,1,0,1,2250.0,Barra Escondida
+Schroeder,SC,3,1,0,2,3,17130.0,Bracinho; Itapocuzinho I; Itapocuzinho II
+Serra Alta,SC,1,0,0,1,1,909.0,Burro Branco I
+Sul Brasil,SC,3,0,2,1,3,10860.0,Aparecida I; Barrinha; Lambari
+São Bento do Sul,SC,4,0,2,2,2,17020.0,Rabo do Macaco; Rio Natal I; Rio Vermelho; Rio Vermelho URVE
+São Bonifácio,SC,5,0,1,4,5,24421.0,Capivari; Rio do Poncho I; Rio do Poncho II; Santa Maria; Volta Grande
+São Cristovão do Sul,SC,1,0,0,1,1,990.0,Apolo
+São Domingos,SC,6,1,2,3,6,180392.0,Dall´asta; Ludesa; Markmann; Quebra Queixo; Santa Luzia Alto; São Domingos
+São Joaquim,SC,6,0,4,2,3,39626.0,Boa Vista; Gamba; Invernadinha; Ramada; São Joaquim; Urupema
+São José,SC,1,0,0,1,1,1000.0,Maruim
+São José do Cedro,SC,2,0,1,1,1,7000.0,Lombo do Cavalo; Wasser Kraft
+São José do Cerrito,SC,3,1,2,0,2,170300.0,Itararé; João Borges; São Roque
+São Ludgero,SC,4,0,0,4,4,856.52,Daltro Bianchini; Morro do Cruzeiro; Pinheiros II; Rio das Furnas
+São Martinho,SC,1,0,1,0,1,18738.0,Capivari
+São Miguel da Boa Vista,SC,1,0,1,0,1,5100.0,Jaspe
+São Pedro de Alcântara,SC,1,0,0,1,1,2400.0,Pingo de Ouro
+Taió,SC,13,0,2,11,12,25817.6,Alto Palmital; Brilhante; Bruno Heidrich; Bruno Heidrich Neto; Buraco; Curt Lindner; Erna Heidrich; Estaçao; Horst Purnhagen; Passo Manso; Rio Rauhen; Rio das Pacas; Rudolf
+Tangará,SC,6,0,1,5,6,22682.0,Dona Amélia; Dorvalino João Guzzi; Rio Bonito Força e Luz; Salto Góes; Santo Tessaro; Sopasta I
+Timbó Grande,SC,3,0,1,2,2,32975.0,CENTRAL III; Espraiado; Salto do Timbo
+Treze de Maio,SC,3,0,0,3,3,1250.48,Azambuja; Microgeração Bardini; Treze de Maio
+Trombudo Central,SC,1,0,0,1,1,150.0,A.N.T. Central
+Urubici,SC,1,0,0,1,1,830.0,Scardoelli
+Urussanga,SC,2,0,0,2,2,2750.0,Rio Palmeiras I; Rio Palmeiras II
+Vargem,SC,1,1,0,0,1,141900.0,São Roque
+Vargeão,SC,2,0,2,0,0,32128.7,Barreiros; Santa Rosa
+Videira,SC,3,0,0,3,3,3679.9,DAS PEDRAS - VIDEIRA; Estreito; Rio do Peixe
+Xanxerê,SC,11,0,7,4,10,96171.0,Alto Irani; Arvoredo; Barrinha Geração De Energia; Caju; Guarani; Lontras; Plano Alto; Prezzotto 1; Salto Voltão; Salto do Passo Velho; Xavantina
+Xavantina,SC,4,0,4,0,3,36275.0,Barra das Águas; Plano Alto; Ursuleta; Xavantina
+Xaxim,SC,5,0,0,5,5,5996.0,Barrinha Geração De Energia; CACHOEIRINHA; Hacker Energia; JACU; Lontras
+Zortéa,SC,1,0,0,1,1,3899.6,Agudo
+Água Doce,SC,5,0,4,1,5,28476.0,Contestado; Coronel Araújo; Das Pedras; Salto Santo Antônio; Tonet
+Águas Frias,SC,1,0,1,0,1,4600.0,Coração
+Águas de Chapecó,SC,1,1,0,0,1,855000.0,Foz do Chapecó
+Canindé de São Francisco,SE,1,1,0,0,1,3162000.0,Xingó
+Estância,SE,1,1,0,0,1,550.0,Santa Cruz
+Americana,SP,1,0,1,0,1,30000.0,Americana
+Amparo,SP,1,0,0,1,1,588.0,Santa Tereza
+Andradina,SP,1,1,0,0,1,807500.0,Três Irmãos
+Arapeí,SP,1,0,0,1,1,288.0,Capitão Mor
+Araraquara,SP,3,0,0,3,3,4275.0,Chibarro; Salto Grande; Socorro
+Araçatuba,SP,1,0,0,1,1,121.5,Jatobazinho
+Avaré,SP,1,0,0,1,1,980.0,Rio Novo
+Bananal,SP,1,0,0,1,1,450.0,Bocaina I
+Barra Bonita,SP,1,1,0,0,1,140760.0,Barra Bonita
+Barra do Chapéu,SP,1,0,0,1,1,1000.0,Apiaí
+Batatais,SP,1,0,0,1,1,115.0,Central Macaúbas
+Bertioga,SP,1,0,1,0,1,15000.0,Itatinga
+Boituva,SP,1,0,0,1,1,1000.0,Santa Adélia
+Boracéia,SP,1,1,0,0,1,143100.0,Bariri (Álvaro de Souza Lima)
+Brotas,SP,1,0,0,1,1,2000.0,Jacaré Pepira
+Buritama,SP,1,1,0,0,1,347400.0,Nova Avanhandava (Rui Barbosa)
+Buritizal,SP,1,0,0,1,1,800.0,Buritis
+Caconde,SP,1,1,0,0,1,80400.0,Caconde
+Cajuru,SP,2,0,0,2,2,1406.4,Cajuru; Jph Participaçoes
+Campinas,SP,1,0,0,1,1,4550.4,Salto Grande
+Campos do Jordão,SP,1,0,0,1,1,360.0,Marmelos III
+Castilho,SP,1,1,0,0,1,1551200.0,Jupiá (Eng° Souza Dias)
+Cerqueira César,SP,1,1,0,0,1,100956.0,Jurumirim (Armando Avellanal Laydner)
+Cerquilho,SP,1,0,0,1,1,4873.6,San Juan
+Chavantes,SP,1,1,0,0,1,414000.0,Chavantes
+Cubatão,SP,1,1,0,0,1,889000.0,Henry Borden
+Cássia dos Coqueiros,SP,1,0,0,1,1,493.0,Santa Terezinha
+Cândido Mota,SP,2,1,0,1,2,83844.0,Canoas I; Pari
+Espírito Santo do Pinhal,SP,2,0,2,0,2,25800.0,Eloy Chaves; Pinhal
+Gavião Peixoto,SP,1,0,0,1,1,4860.0,Gavião Peixoto
+Guaratinguetá,SP,1,0,0,1,1,1012.0,Sodre
+Guará,SP,4,0,4,0,4,63230.0,Anhanguera; Palmeiras; Retiro; São Joaquim
+Guaíra,SP,1,1,0,0,1,320000.0,Porto Colômbia
+Iaras,SP,2,0,2,0,1,17290.0,Ponte Branca; São Francisco
+Ibaté,SP,1,0,0,1,1,192.0,Major
+Ibitinga,SP,1,1,0,0,1,131490.0,Ibitinga
+Ibiúna,SP,1,1,0,0,1,36400.0,Fumaça
+Icém,SP,1,1,0,0,1,1440000.0,Marimbondo
+Igarapava,SP,1,1,0,0,1,210000.0,Igarapava
+Ilha Solteira,SP,1,1,0,0,1,3444000.0,Ilha Solteira
+Indiaporã,SP,1,1,0,0,1,1396200.0,Água Vermelha (Antiga José Ermírio de Moraes)
+Itapeva,SP,3,0,0,3,3,5752.0,Salto da Barra; Santa Maria; São José
+Itararé,SP,1,0,0,1,1,3960.0,Cachoeira Poço Preto I
+Itatinga,SP,1,0,0,1,1,1616.0,Salto do Lobo
+Itu,SP,1,0,0,1,1,1612.5,Cabreúva
+Jacareí,SP,2,2,0,0,2,83650.0,Jaguari; Santa Branca
+Jumirim,SP,1,0,0,1,1,4873.6,San Juan
+Juquitiba,SP,1,1,0,0,1,29500.0,França
+Juquiá,SP,2,2,0,0,2,60870.0,Salto do Iporanga; Serraria
+Lavrinhas,SP,2,0,2,0,2,60000.0,Lavrinhas; Queluz
+Limeira,SP,1,0,0,1,1,1200.0,Ribeirão do Pinhal
+Macatuba,SP,1,0,0,1,1,1680.0,Lençóis
+Martinópolis,SP,1,0,0,1,1,720.0,Laranja Doce
+Miguelópolis,SP,1,1,0,0,1,380000.0,Volta Grande
+Miracatu,SP,1,1,0,0,1,72000.0,Alecrim
+Mogi Guaçu,SP,1,0,1,0,1,7200.0,Mogi-Guaçu
+Nova Campina,SP,1,0,0,1,1,660.0,São José
+Nova Europa,SP,1,0,0,1,1,409.6,Itaquerê
+Nuporanga,SP,1,0,1,0,1,10800.0,Dourados
+Ourinhos,SP,1,1,0,0,1,44000.0,Ourinhos
+Ouroeste,SP,1,1,0,0,1,1396200.0,Água Vermelha (Antiga José Ermírio de Moraes)
+Palmital,SP,1,1,0,0,1,72000.0,Canoas II
+Paraibuna,SP,1,1,0,0,1,87020.0,Paraibuna
+Patrocínio Paulista,SP,1,0,1,0,1,5040.0,Esmeril
+Pedregulho,SP,1,1,0,0,1,1050000.0,Estreito (Luiz Carlos Barreto de Carvalho)
+Pedreira,SP,3,0,1,2,3,12389.69,Engenheiro Bernardo Figueiredo; Jaguari; Santa Tereza
+Piedade,SP,2,0,0,2,2,420.9,Jurupará; Piedade
+Pilar do Sul,SP,3,0,3,0,3,5554.0,Batista; Jorda Flor; Pilar
+Pindamonhangaba,SP,2,0,0,2,2,4393.0,HIDROGERADOR QUÂNTICO; Izabel
+Piracicaba,SP,3,0,2,1,3,4386.0,Luiz Queiroz; Museu da Água; Piracicaba (Antiga Boyes)
+Piraju,SP,2,2,0,0,2,101500.0,Paranapanema; Pirajú
+Pirapora do Bom Jesus,SP,2,1,1,0,2,47024.0,Pirapora; Rasgão
+Pirassununga,SP,1,0,1,0,1,7215.0,Emas Nova
+Queluz,SP,1,0,1,0,1,30000.0,Queluz
+Rancharia,SP,1,0,0,1,1,2600.0,Quatiara
+Ribeira,SP,1,0,0,1,1,4000.0,Catas Altas
+Ribeirão Branco,SP,1,0,0,1,1,1723.0,Corredeira do Capote
+Rifaina,SP,1,1,0,0,1,424000.0,Jaguara
+Rio Claro,SP,1,0,0,1,1,1700.0,Corumbataí
+Rosana,SP,2,2,0,0,2,1894000.0,Porto Primavera (Eng° Sérgio Motta); Rosana
+Salesópolis,SP,1,0,0,1,1,1000.0,Salesópolis
+Salto,SP,1,1,0,0,1,24800.0,Porto Góes
+Salto Grande,SP,1,1,0,0,1,73800.0,Salto Grande (Lucas Nogueira Garcez)
+Sandovalina,SP,1,1,0,0,1,525000.0,Taquaruçu (Escola Politécnica)
+Santa Branca,SP,1,1,0,0,1,56050.0,Santa Branca
+Santa Rita do Passa Quatro,SP,1,0,0,1,1,1450.0,São Valentim
+Santa Rosa de Viterbo,SP,1,0,1,0,1,3880.0,Itaipava
+Santana de Parnaíba,SP,2,0,2,0,1,43024.0,Edgard de Souza; Pirapora
+Socorro,SP,1,0,0,1,1,1000.0,Peixe
+São Carlos,SP,4,0,0,4,4,9405.0,Capão Preto; Major; Monjolinho; Santana
+São Joaquim da Barra,SP,3,0,3,0,3,55180.0,Anhanguera; Palmeiras; Retiro
+São José do Rio Pardo,SP,4,3,1,0,4,162360.0,Euclides da Cunha; João Baptista de Lima Figueiredo; Limoeiro (Armando Salles de Oliveira); Rio do Peixe (Casa de Força I e II)
+São José dos Campos,SP,1,1,0,0,1,27600.0,Jaguari
+São João da Boa Vista,SP,2,0,2,0,2,7000.0,São Joaquim; São José
+São Miguel Arcanjo,SP,3,0,0,3,3,1920.9,Lavrinha; São José; Turvinho
+São Paulo,SP,2,0,0,2,2,5240.0,Santa Helena; Votorantim
+Taciba,SP,1,1,0,0,1,643000.0,Capivara (Escola de Engenharia Mackenzie)
+Tapiratiba,SP,1,0,1,0,1,3500.0,João Baptista de Lima Figueiredo
+Tapiraí,SP,2,2,0,0,2,68800.0,Barra; Porto Raso
+Tatuí,SP,1,0,0,1,1,1000.0,Santa Adélia
+Terra Roxa,SP,1,0,0,1,1,230.0,Palmeiras
+Torrinha,SP,1,0,0,1,1,640.0,Três Saltos
+Ubarana,SP,1,1,0,0,1,264000.0,Promissão (Mário Lopes Leão)
+Votorantim,SP,1,1,0,0,1,55000.0,Itupararanga
+Águas de Santa Bárbara,SP,1,0,1,0,1,10500.0,Ponte Branca
+Aguiarnópolis,TO,1,1,0,0,1,1087000.0,Estreito
+Araguaína,TO,1,0,0,1,1,680.0,Corujão
+Dianópolis,TO,12,0,12,0,12,154880.0,Agro Trafo; Areia; Boa Sorte; Diacal II; Dianópolis; Doido; Lagoa Grande; Manuel Alves; Piarucum; Porto Franco; Riacho Preto; Água Limpa
+Lajeado,TO,1,0,0,1,1,1776.0,Lageado
+Mateiros,TO,2,0,0,2,2,1000.0,Fazenda Jedai; Mateiros
+Miracema do Tocantins,TO,1,1,0,0,1,902500.0,Luís Eduardo Magalhães (Lajeado)
+Monte do Carmo,TO,1,0,1,0,1,29064.0,Isamu Ikeda
+Natividade,TO,1,0,0,1,1,480.0,Bagagem
+Novo Jardim,TO,8,0,8,0,8,122300.0,Areia; Boa Sorte; Doido; Lagoa Grande; Piarucum; Porto Franco; Riacho Preto; Água Limpa
+Palmas,TO,1,1,0,0,1,902500.0,Luís Eduardo Magalhães (Lajeado)
+Paranã,TO,1,1,0,0,1,243200.0,São Salvador
+Peixe,TO,1,1,0,0,1,498750.0,Peixe Angical
+Ponte Alta do Bom Jesus,TO,10,0,3,7,9,52900.0,Buritirana; Cachoeira; Lagoa Grande; PIABANHA DO TOCANTINS; Palmeiras; Piarucum; Ponte Alta; Sirivera; Sucuri; TAPUIAS
+Ponte Alta do Tocantins,TO,1,0,1,0,1,29064.0,Isamu Ikeda
+Rio da Conceição,TO,1,0,0,1,1,4400.0,Rio da Conceição
+São Salvador do Tocantins,TO,2,2,0,0,2,741950.0,Peixe Angical; São Salvador
+Taguatinga,TO,2,0,1,1,2,6571.0,Sobrado; Taguatinga
+Wanderlândia,TO,1,0,0,1,1,1932.0,Lajes

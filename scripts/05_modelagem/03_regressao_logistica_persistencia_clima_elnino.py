@@ -95,7 +95,7 @@ FEATURES = ["Mes", "PrecipitacaoAcumuladaMm", "PrecipitacaoPctNormal",
 TARGET = "IsVermelha"
 
 X, y = pdf[FEATURES], pdf[TARGET]
-N_TESTE = 24
+N_TESTE = min(24, len(pdf) // 4)  # ultimos 24 meses viram o "teste" (ajustado se dataset for menor)
 X_train, X_test = X.iloc[:-N_TESTE], X.iloc[-N_TESTE:]
 y_train, y_test = y.iloc[:-N_TESTE], y.iloc[-N_TESTE:]
 

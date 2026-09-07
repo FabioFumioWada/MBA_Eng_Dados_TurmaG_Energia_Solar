@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "5"
+# ///
 # MAGIC %md
 # MAGIC ## Treino do Modelo v2 - Previsao de Bandeira Vermelha (Sprint 4)
 # MAGIC
@@ -86,7 +90,7 @@ FEATURES = ["Mes", "PrecipitacaoAcumuladaMm", "PrecipitacaoPctNormal",
 TARGET = "IsVermelha"
 
 X, y = pdf[FEATURES], pdf[TARGET]
-N_TESTE = 24
+N_TESTE = min(24, len(pdf) // 4)  # ultimos 24 meses viram o "teste" (ajustado se dataset for menor)
 X_train, X_test = X.iloc[:-N_TESTE], X.iloc[-N_TESTE:]
 y_train, y_test = y.iloc[:-N_TESTE], y.iloc[-N_TESTE:]
 

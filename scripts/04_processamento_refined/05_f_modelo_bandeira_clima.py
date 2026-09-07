@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "5"
+# ///
 # MAGIC %md
 # MAGIC ## Base para o Modelo - Bandeira Tarifária x Clima (Usinas Hidrelétricas)
 # MAGIC
