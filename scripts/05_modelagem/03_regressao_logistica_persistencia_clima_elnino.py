@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "5"
+# ///
 # MAGIC %md
 # MAGIC ## Treino do Modelo v3 - Previsao de Bandeira Vermelha (Sprint 4)
 # MAGIC

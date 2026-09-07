@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "5"
+# ///
 # MAGIC %md
 # MAGIC ## 09 - Indice ONI e Previsao ENSO / El Nino-La Nina (Stage)
 # MAGIC
