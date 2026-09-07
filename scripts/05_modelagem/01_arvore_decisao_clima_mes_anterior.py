@@ -15,8 +15,8 @@
 # MAGIC
 # MAGIC ### Tecnica escolhida: Arvore de Decisao (Decision Tree Classifier)
 # MAGIC Por que essa tecnica e nao algo mais complexo (rede neural, XGBoost)?
-# MAGIC 1. **Poucos dados** (127 meses) - modelo complexo demais "decora" em vez
-# MAGIC    de aprender (overfitting).
+# MAGIC 1. **Poucos dados** (a base de clima consolidada do grupo cobre 2024-2026)
+# MAGIC    - modelo complexo demais "decora" em vez de aprender (overfitting).
 # MAGIC 2. **Interpretabilidade** - da pra desenhar a arvore e explicar as regras
 # MAGIC    em portugues simples pra banca (ex.: "se choveu pouco e a umidade
 # MAGIC    esta baixa, entao bandeira vermelha").
@@ -24,9 +24,14 @@
 # MAGIC
 # MAGIC ### Reprodutibilidade
 # MAGIC - `random_state` fixo (42) em tudo que tem aleatoriedade.
-# MAGIC - Divisao **temporal** (nao aleatoria): treino = primeiros 103 meses,
-# MAGIC   teste = ultimos 24 meses. Simula a situacao real (treinar com o
-# MAGIC   passado, prever o futuro), sem vazar informacao do teste no treino.
+# MAGIC - Divisao **temporal** (nao aleatoria): os meses mais antigos viram
+# MAGIC   treino, os meses mais recentes viram teste. Simula a situacao real
+# MAGIC   (treinar com o passado, prever o futuro), sem vazar informacao do
+# MAGIC   teste no treino.
+# MAGIC - A base de clima consolidada (INMET) usada pelo grupo cobre um
+# MAGIC   periodo mais curto (2024-2026), entao o teste usa uma fatia menor
+# MAGIC   dos meses mais recentes (em vez de 24 meses fixos), garantindo que
+# MAGIC   sobrem meses suficientes para o treino.
 # MAGIC - Fonte dos dados versionada: `mba.refined.f_modelo_bandeira_clima`
 # MAGIC   (ver notebook `04_processamento_refined/05_f_modelo_bandeira_clima`).
 
@@ -45,7 +50,11 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import matplotlib.pyplot as plt
 
 RANDOM_STATE = 42
-N_TESTE = min(24, len(df) // 4)  # ultimos 24 meses viram o "teste" (ajustado se dataset for menor)
+
+# A base de clima consolidada do grupo (INMET 2024-2026) tem poucos meses.
+# Reservamos no maximo 25% dos meses mais recentes para teste (nunca mais que
+# 24), garantindo que sobre dado suficiente pro treino.
+N_TESTE = min(24, len(df) // 4)
 
 # QtdEstacoesUsadas fica de fora (quase nao varia, sem poder preditivo).
 # PrecipitacaoMediaMm fica de fora (redundante com PrecipitacaoAcumuladaMm).
@@ -67,8 +76,9 @@ print(f"Periodo de teste: {meses_teste.min()} a {meses_teste.max()}")
 # COMMAND ----------
 
 # DBTITLE 1,Treina o modelo
-# class_weight="balanced": so ~22% dos meses sao vermelhos, isso evita que o
-# modelo simplesmente "chute sempre nao-vermelha" pra parecer mais preciso.
+# class_weight="balanced": so uma minoria dos meses sao vermelhos, isso evita
+# que o modelo simplesmente "chute sempre nao-vermelha" pra parecer mais
+# preciso.
 modelo = DecisionTreeClassifier(max_depth=3, class_weight="balanced", random_state=RANDOM_STATE)
 modelo.fit(X_train, y_train)
 
