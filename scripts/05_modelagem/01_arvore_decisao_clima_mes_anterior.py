@@ -6,7 +6,7 @@
 # MAGIC Prever se a bandeira tarifaria de um mes sera **VERMELHA (1)** ou nao (0),
 # MAGIC usando apenas o clima (chuva, temperatura, umidade) do **mes anterior**
 # MAGIC das estacoes ligadas as usinas hidreletricas. E o modelo v1 combinado
-# MAGIC (estrategia do Alberto): so hidreletrica + chuva + bandeira. EAR, ENA e
+# MAGIC (estrategia definida pelo grupo): so hidreletrica + chuva + bandeira. EAR, ENA e
 # MAGIC CMO ficam para uma proxima versao (v2), ja tratados no Databricks.
 # MAGIC
 # MAGIC ### Tecnica escolhida: Arvore de Decisao (Decision Tree Classifier)

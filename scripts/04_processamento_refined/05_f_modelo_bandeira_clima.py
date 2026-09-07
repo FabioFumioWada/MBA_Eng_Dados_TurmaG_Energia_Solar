@@ -4,7 +4,7 @@
 # MAGIC
 # MAGIC ### Objetivo
 # MAGIC Montar a tabela final pronta para treinar o modelo (v1) definida na
-# MAGIC estratégia do Alberto: usar apenas hidrelétrica + chuva para prever a
+# MAGIC estratégia definida pelo grupo: usar apenas hidrelétrica + chuva para prever a
 # MAGIC bandeira tarifária, deixando EAR, ENA e CMO como enriquecimento futuro.
 # MAGIC
 # MAGIC ### Cuidado com vazamento de dados (data leakage)
