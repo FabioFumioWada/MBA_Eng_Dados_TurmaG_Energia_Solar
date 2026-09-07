@@ -45,7 +45,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import matplotlib.pyplot as plt
 
 RANDOM_STATE = 42
-N_TESTE = 24  # ultimos 24 meses viram o "teste" (2 anos, com representatividade de vermelhas)
+N_TESTE = min(24, len(df) // 4)  # ultimos 24 meses viram o "teste" (ajustado se dataset for menor)
 
 # QtdEstacoesUsadas fica de fora (quase nao varia, sem poder preditivo).
 # PrecipitacaoMediaMm fica de fora (redundante com PrecipitacaoAcumuladaMm).
