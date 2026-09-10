@@ -47,8 +47,9 @@
 # MAGIC Referências:
 # MAGIC https://www.statsmodels.org/stable/generated/statsmodels.miscmodels.ordinal_model.OrderedModel.html
 # MAGIC https://scikit-learn.org/stable/modules/cross_validation.html
-# MAGIC
+
 # COMMAND ----------
+
 # DBTITLE 1,Funções de datas, fontes, métricas e segurança reaproveitadas
 import hashlib
 import json
@@ -264,6 +265,7 @@ def verificar_corte(treino, avaliacao):
 
 
 # COMMAND ----------
+
 # DBTITLE 1,Regressão ordinal e candidatos fixados
 import scipy
 import statsmodels
@@ -545,6 +547,7 @@ def executar_comparacao(bases, calendario, exclusoes):
     return payload, modelos_finais
 
 # COMMAND ----------
+
 # DBTITLE 1,Leitura do Unity Catalog e execução real, somente leitura
 if "spark" in globals():
     from pyspark.sql import functions as F
@@ -578,6 +581,7 @@ if "spark" in globals():
         display(pd.DataFrame(resultado[chave]))
 
 # COMMAND ----------
+
 # DBTITLE 1,Saída auditável, sem persistir tabelas nem alterar os notebooks anteriores
 if "spark" in globals():
     dbutils.notebook.exit(json.dumps(resultado, ensure_ascii=False, allow_nan=False))
