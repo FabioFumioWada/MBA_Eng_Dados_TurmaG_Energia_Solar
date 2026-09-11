@@ -1,0 +1,121 @@
+PORTAL LOCAL DE PREVISAO DO MODELO 07
+======================================
+
+A estrutura utiliza um unico arquivo .env em api/python:
+
+api/portal/
+  portal_streamlit.py          Interface web local
+  requirements.txt             Dependencias do portal e do cliente
+  instrucoes.txt               Este guia
+
+api/python/
+  databricks_previsao.py       Cliente, API local e integracao com Databricks
+  .env.example                 Modelo de configuracao sem segredo real
+  .env                         Arquivo local unico, nao versionado
+  .gitignore                   Protecao de segredos e arquivos temporarios
+
+O portal importa automaticamente o cliente de ../python e procura o unico
+.env em ../python/.env. O token nao e exibido na tela.
+
+PRIMEIRA INSTALACAO
+-------------------
+No PowerShell, a partir da pasta do portal:
+
+cd D:\MBA_Eng_Dados_TurmaG_Energia_Solar\api\portal
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r .\requirements.txt
+
+Se a ativacao for bloqueada nesta janela:
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+
+CONFIGURACAO DO UNICO .ENV
+--------------------------
+O arquivo de configuracao deve ficar em:
+
+D:\MBA_Eng_Dados_TurmaG_Energia_Solar\api\python\.env
+
+A partir da pasta api/portal, copie o modelo:
+
+Copy-Item ..\python\.env.example ..\python\.env
+
+Edite o arquivo unico:
+
+notepad ..\python\.env
+
+Conteudo esperado:
+
+DATABRICKS_HOST=https://dbc-f2710b42-e7e1.cloud.databricks.com
+DATABRICKS_TOKEN=SEU_TOKEN_NOVO
+DATABRICKS_NOTEBOOK_PATH=/Workspace/Users/fabiofumio@hotmail.com/MBA_Eng_Dados_TurmaG_Energia_Solar/scripts/05_modelagem/07_regressao_logistica_clima_ear_regua_final_estruturado
+DATABRICKS_ENVIRONMENT_VERSION=5
+DATABRICKS_POLL_SECONDS=5
+DATABRICKS_MAX_WAIT_SECONDS=900
+
+Use o caminho real do notebook estruturado. Nao coloque o token no codigo,
+no Git, no README, no .env.example ou em mensagens.
+
+OPCAO 1: PORTAL STREAMLIT
+-------------------------
+A partir da pasta api/portal:
+
+streamlit run .\portal_streamlit.py
+
+O navegador abrira em:
+
+http://localhost:8501
+
+No portal:
+1. Informe o ano de referencia.
+2. Informe o mes de referencia.
+3. Clique em Executar modelo.
+4. Aguarde a execucao remota terminar.
+5. Consulte t+1, t+2, t+3, probabilidades e backtest.
+6. Use JSON completo para baixar o resultado.
+
+O mes e o ano representam o periodo de referencia. Exemplo:
+2019-06 gera alvos 2019-07, 2019-08 e 2019-09.
+
+OPCAO 2: EXECUCAO DIRETA
+------------------------
+O cliente continua na pasta api/python. A partir da pasta do repositorio:
+
+cd D:\MBA_Eng_Dados_TurmaG_Energia_Solar\api\python
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install requests Flask
+
+Execute usando o unico .env:
+
+python .\databricks_previsao.py --ano 2019 --mes 6
+
+OPCAO 3: API LOCAL EMBUTIDA
+---------------------------
+A partir da pasta api/python:
+
+python .\databricks_previsao.py --serve
+
+A API fica em http://127.0.0.1:8000.
+
+Teste de saude:
+
+Invoke-RestMethod -Method Get -Uri "http://127.0.0.1:8000/health"
+
+Consulta PowerShell:
+
+$body = @{ ano = 2019; mes = 6 } | ConvertTo-Json
+Invoke-RestMethod `
+  -Method Post `
+  -Uri "http://127.0.0.1:8000/previsao" `
+  -ContentType "application/json" `
+  -Body $body | ConvertTo-Json -Depth 20
+
+SEGURANCA E GIT
+---------------
+O unico .env deve ficar em api/python/.env e e ignorado pelo Git.
+O arquivo api/python/.env.example pode ser versionado, pois nao deve conter
+token real. Nao crie outra copia do .env em api/portal.
+
+Se um token for exposto, revogue-o no Databricks e gere outro.

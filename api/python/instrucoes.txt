@@ -8,6 +8,7 @@ python -m pip install requests Flask
 ====== Execução (Power Shell)
 
 -- Execute usando o arquivo .env (powershell)
+cd D:\MBA_Eng_Dados_TurmaG_Energia_Solar\api\python
 python .\databricks_previsao.py --ano 2019 --mes 6
 
 O script carregará automaticamente:
@@ -53,4 +54,6 @@ Remove-Item Env:DATABRICKS_POLL_SECONDS -ErrorAction SilentlyContinue
 Remove-Item Env:DATABRICKS_MAX_WAIT_SECONDS -ErrorAction SilentlyContinue
 
 
-
+====== Observações
+* O arquivo .env localizado em /api/python não está sendo sincronizado e versionado pelo git. Manter na máquina localizado
+* A estrutura /api/python utiliza o script 07_P_regressaa.... localizado em \scripts\05_modelagem
