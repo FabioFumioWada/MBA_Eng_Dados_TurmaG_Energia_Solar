@@ -1,0 +1,56 @@
+====== Antes da execução
+-- Instalar as dependências (PowerShell)
+
+cd D:\Estudos\mba_api
+python -m pip install requests Flask
+
+
+====== Execução (Power Shell)
+
+-- Execute usando o arquivo .env (powershell)
+python .\databricks_previsao.py --ano 2019 --mes 6
+
+O script carregará automaticamente:
+D:\Estudos\mba_api\.env
+
+e usará:
+
+DATABRICKS_HOST
+DATABRICKS_TOKEN
+DATABRICKS_NOTEBOOK_PATH
+DATABRICKS_ENVIRONMENT_VERSION
+DATABRICKS_POLL_SECONDS
+DATABRICKS_MAX_WAIT_SECONDS
+
+A saída deverá começar com algo semelhante a:
+
+Configuração carregada de .env
+run_id=...
+state=RUNNING
+state=TERMINATED result=SUCCESS
+resultado_json=
+{
+  "status": "SUCCESS",
+  "periodo_referencia": "2019-06",
+  ...
+}
+
+====== Limpar as variáveis de ambiente (Power Shell)
+Se você já tiver configurado alguma variável no PowerShell, ela terá prioridade sobre o valor do .env.
+
+Por exemplo, se executar:
+$env:DATABRICKS_NOTEBOOK_PATH = "outro_caminho"
+
+esse valor será usado, mesmo que o .env contenha outro caminho.
+
+Para limpar as variáveis antigas da sessão atual (power shell):
+
+Remove-Item Env:DATABRICKS_HOST -ErrorAction SilentlyContinue
+Remove-Item Env:DATABRICKS_TOKEN -ErrorAction SilentlyContinue
+Remove-Item Env:DATABRICKS_NOTEBOOK_PATH -ErrorAction SilentlyContinue
+Remove-Item Env:DATABRICKS_ENVIRONMENT_VERSION -ErrorAction SilentlyContinue
+Remove-Item Env:DATABRICKS_POLL_SECONDS -ErrorAction SilentlyContinue
+Remove-Item Env:DATABRICKS_MAX_WAIT_SECONDS -ErrorAction SilentlyContinue
+
+
+
