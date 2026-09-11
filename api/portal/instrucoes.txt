@@ -21,15 +21,38 @@ PRIMEIRA INSTALACAO
 -------------------
 No PowerShell, a partir da pasta do portal:
 
-cd D:\MBA_Eng_Dados_TurmaG_Energia_Solar\api\portal
+1. Criar o ambiente virtual, se ainda não existir
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r .\requirements.txt
 
-Se a ativacao for bloqueada nesta janela:
-
+2. Ativar o ambiente virtual
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\.venv\Scripts\Activate.ps1
+
+O prompt deverá passar a começar parecido com:
+text
+(.venv) PS D:\MBA_Eng_Dados_TurmaG_Energia_Solar\api\portal>
+
+3. Instalar as dependências
+python -m pip install -r .\requirements.txt
+
+O arquivo requirements.txt já contém:
+text
+streamlit
+requests
+Flask
+
+4. Confirmar a instalação
+python -m streamlit --version
+
+Deverá aparecer algo semelhante a:
+Streamlit, version 1.x.x
+
+5. Iniciar o portal
+Use python -m streamlit, pois esse formato funciona mesmo quando o comando streamlit não está registrado no PATH:
+python -m streamlit run .\portal_streamlit.py
+
+Depois acesse: http://localhost:8501
+
 
 CONFIGURACAO DO UNICO .ENV
 --------------------------
@@ -78,18 +101,6 @@ No portal:
 O mes e o ano representam o periodo de referencia. Exemplo:
 2019-06 gera alvos 2019-07, 2019-08 e 2019-09.
 
-OPCAO 2: EXECUCAO DIRETA
-------------------------
-O cliente continua na pasta api/python. A partir da pasta do repositorio:
-
-cd D:\MBA_Eng_Dados_TurmaG_Energia_Solar\api\python
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install requests Flask
-
-Execute usando o unico .env:
-
-python .\databricks_previsao.py --ano 2019 --mes 6
 
 OPCAO 3: API LOCAL EMBUTIDA
 ---------------------------
