@@ -4,12 +4,14 @@
 Execute a partir desta pasta:
     streamlit run portal_streamlit.py
 
-O arquivo .env fica em ../python/.env. O token nunca é exibido na tela.
+Localmente, o arquivo .env fica em ../python/.env. No Streamlit Cloud,
+as mesmas variáveis são lidas de st.secrets. O token nunca é exibido na tela.
 """
 
 from __future__ import annotations
 
 import json
+import os
 import sys
 from pathlib import Path
 from typing import Any
@@ -87,6 +89,38 @@ def load_local_environment() -> tuple[bool, str]:
     except DatabricksError as exc:
         return False, str(exc)
     return loaded, str(env_path)
+
+
+def load_streamlit_secrets() -> tuple[bool, str]:
+    """Carrega secrets flat do Streamlit Cloud sem sobrescrever o ambiente."""
+    try:
+        secrets = dict(st.secrets)
+    except Exception:
+        return False, "Secrets do Streamlit não configurados"
+
+    expected = (
+        "DATABRICKS_HOST",
+        "DATABRICKS_TOKEN",
+        "DATABRICKS_NOTEBOOK_PATH",
+        "DATABRICKS_ENVIRONMENT_VERSION",
+        "DATABRICKS_POLL_SECONDS",
+        "DATABRICKS_MAX_WAIT_SECONDS",
+    )
+    loaded = False
+    for name in expected:
+        value = secrets.get(name)
+        if value is not None and str(value).strip():
+            os.environ.setdefault(name, str(value))
+            loaded = True
+    if loaded:
+        return True, "Secrets do Streamlit carregados"
+
+    # Alguns ambientes de hospedagem expõem os secrets como variáveis de
+    # ambiente. Reconhecemos esse caso para não exibir um diagnóstico falso.
+    env_loaded = all(os.environ.get(name, "").strip() for name in expected[:3])
+    if env_loaded:
+        return True, "Variáveis seguras do ambiente carregadas"
+    return False, "Secrets do Streamlit não configurados"
 
 
 def percentage(value: Any) -> str:
@@ -179,6 +213,7 @@ def render_result(response: dict[str, Any]) -> None:
 
 
 loaded_env, env_message = load_local_environment()
+loaded_secrets, secrets_message = load_streamlit_secrets()
 
 st.markdown(
     """
@@ -192,11 +227,12 @@ st.markdown(
 
 with st.sidebar:
     st.markdown("### Configuração local")
-    if loaded_env:
-        st.success("Arquivo .env carregado")
+    if loaded_env or loaded_secrets:
+        source = "arquivo .env" if loaded_env else secrets_message
+        st.success(f"Configuração carregada: {source}")
     else:
-        st.warning("Arquivo .env não encontrado")
-    st.caption(env_message)
+        st.warning("Nenhuma configuração encontrada")
+    st.caption(env_message if loaded_env else secrets_message)
     st.divider()
     st.markdown("**Como funciona**")
     st.caption("O portal envia os parâmetros ao notebook, acompanha a execução e exibe o JSON retornado.")
