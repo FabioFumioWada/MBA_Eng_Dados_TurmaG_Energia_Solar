@@ -218,7 +218,7 @@ class DatabricksClient:
             "idempotency_token": f"portal-previsoes-{uuid.uuid4()}",
             "tasks": [
                 {
-                    "task_key": "nb_07,
+                    "task_key": "nb_07",
                     "notebook_task": {
                         "notebook_path": self.config.notebook_path,
                         "source": "WORKSPACE",
