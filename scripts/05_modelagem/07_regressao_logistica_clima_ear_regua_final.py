@@ -286,6 +286,93 @@ print(coefs.round(3).to_string())
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC ## 7. Previsao real (fora da amostra) para os meses ainda sem bandeira publicada
+# MAGIC O backtest acima (secao 5) so avalia meses de alvo que ja tem a bandeira oficial
+# MAGIC publicada em `mba.trusted.f_bandeira` -- por isso ele nunca "avanca" para alem do
+# MAGIC ultimo mes com rotulo conhecido. Esta secao treina os mesmos modelos (mesma
+# MAGIC receita de features e pesos) com TODO o historico disponivel e projeta os meses
+# MAGIC de alvo que ainda NAO tem bandeira publicada -- a previsao real de T3.
+
+# COMMAND ----------
+
+print("\n" + "#" * 108)
+print("# PREVISAO REAL (fora da amostra) - meses de alvo SEM bandeira oficial publicada")
+print("#" * 108)
+
+
+def construir_linha_origem(o):
+    """Monta a linha de features do mes de origem `o` para gerar previsao.
+    Se `o` ja existir em `base` (clima INMET completo ja processado), usa os
+    valores reais. Caso `o` seja mais recente que o clima do INMET (ainda nao
+    chegou na tabela refined), monta uma linha parcial só com o que já
+    fechou: mes calendario, EAR do subsistema SE (que atualiza mais rapido) e
+    a bandeira do proprio mes de origem (persistencia, ja publicada). As
+    variaveis de clima ficam como NaN e sao preenchidas pela mediana do
+    treino pelo SimpleImputer do pipeline.
+    """
+    if o in base.index:
+        return base.loc[[o]].copy()
+    linha = {c: np.nan for c in base.columns}
+    linha["mes_clima"] = o.month
+    linha["ear_pct"] = float(s_ear.get(o, np.nan))
+    aaaamm_o = o.year * 100 + o.month
+    linha["bandeira_origem"] = float(serie_band.get(aaaamm_o, np.nan))
+    return pd.DataFrame([linha], index=[o])
+
+
+# Origem usada para prever = ultimo mes JA FECHADO (bandeira ja conhecida),
+# nao o ultimo mes com clima INMET completo -- assim t+1 mira o proximo mes
+# de verdade (ex.: hoje ago/2026 fechado -> t+1 preve set/2026), em vez de
+# repetir um mes que ja e conhecido.
+origem_previsao = para_periodo(int(serie_band.index.max()))
+tem_clima_completo = origem_previsao in base.index
+print(f"mes de origem usado para prever (ultimo mes ja fechado)  : {origem_previsao}")
+print(f"clima INMET completo disponivel para esse mes de origem  : "
+      f"{'sim' if tem_clima_completo else 'nao -- usando EAR + persistencia; clima imputado pela mediana do treino'}")
+
+x_row_base = construir_linha_origem(origem_previsao)
+
+previsoes_futuras = []
+for h in (1, 2, 3):
+    alvo_h = origem_previsao + h
+    ja_conhecido = alvo_h in serie_bandeira.index
+    df_h = montar(h)
+    cols_h = [c for c in COLS_MODELO if c in df_h.columns and df_h[c].nunique(dropna=True) > 1]
+    if len(df_h) < MIN_TREINO:
+        print(f"\nt+{h}: historico insuficiente para treinar ({len(df_h)} linhas)")
+        continue
+
+    m_h = modelo_final()
+    w_h = peso_amostra(df_h["y"].values, df_h["alvo_mes"].values)
+    m_h.fit(df_h[cols_h], df_h["y"], clf__sample_weight=w_h)
+
+    x_row = x_row_base.copy()
+    alvos_fake = pd.PeriodIndex([alvo_h])
+    for nome in MARCOS_4:
+        x_row[nome] = marca_regime(alvos_fake, nome)[0]
+    x_row = x_row[cols_h]
+
+    proba = float(m_h.predict_proba(x_row)[0, 1])
+    pred = int(proba >= 0.5)
+    status = "JA PUBLICADA (nao e previsao real)" if ja_conhecido else "PREVISAO REAL (ainda nao publicada)"
+    print(f"\nt+{h}: origem={origem_previsao} -> alvo={alvo_h}  [{status}]")
+    print(f"  treinado com {len(df_h)} meses historicos ({int(df_h['y'].sum())} vermelhas)")
+    print(f"  P(vermelha) = {proba*100:.1f}%   classe prevista = {'VERMELHA' if pred else 'nao-vermelha'}")
+    previsoes_futuras.append({
+        "horizonte": f"t+{h}", "origem": str(origem_previsao), "alvo_mes": str(alvo_h),
+        "status": status, "n_treino": len(df_h),
+        "prob_vermelha_pct": round(proba * 100, 1),
+        "classe_prevista": "VERMELHA" if pred else "nao-vermelha",
+    })
+
+print("\n" + "=" * 100)
+print("QUADRO - PREVISAO REAL PARA OS PROXIMOS MESES (a partir do ultimo mes fechado)")
+print("=" * 100)
+print(pd.DataFrame(previsoes_futuras).to_string(index=False))
+
+# COMMAND ----------
+
 sys.stdout = _old
 _rel = _buf.getvalue()
 print(_rel[-3000:])
