@@ -193,7 +193,7 @@ class DatabricksClient:
         return str(state), str(result), str(message)
 
     @staticmethod
-    def child_run_id(run: dict[str, Any], task_key: str = "nb_07_PP") -> int | str:
+    def child_run_id(run: dict[str, Any], task_key: str = "nb_07") -> int | str:
         tasks = run.get("tasks") or []
         for task in tasks:
             if task.get("task_key") == task_key and task.get("run_id") is not None:
@@ -218,7 +218,7 @@ class DatabricksClient:
             "idempotency_token": f"portal-previsoes-{uuid.uuid4()}",
             "tasks": [
                 {
-                    "task_key": "nb_07_PP",
+                    "task_key": "nb_07,
                     "notebook_task": {
                         "notebook_path": self.config.notebook_path,
                         "source": "WORKSPACE",
@@ -475,7 +475,7 @@ with st.sidebar:
     st.markdown("**Como funciona**")
     st.caption("O portal envia os cinco parâmetros do notebook, acompanha a execução remota e exibe o JSON retornado.")
     st.caption("O token fica no arquivo api/python/.env local ou em st.secrets no Streamlit Cloud.")
-    st.caption("O notebook retorna o horizonte t+1; t+2 e t+3 não fazem parte desta versão.")
+    st.caption("O notebook retorna o horizonte t1.")
 
 st.markdown('<div class="section-label">Parâmetros da previsão</div>', unsafe_allow_html=True)
 st.markdown(
@@ -486,13 +486,13 @@ st.markdown(
 with st.form("parameterized_prediction_form"):
     left, right = st.columns(2)
     with left:
-        chuva_acum = st.number_input("Precipitação acumulada (mm)", min_value=0.0, max_value=10000.0, value=100.0, step=0.1, format="%.2f", help="Precipitação acumulada observada no mês de referência.", key="chuva_acum")
-        chuva_pct_normal = st.number_input("Precipitação percentual da normal (%)", min_value=0.0, max_value=10000.0, value=100.0, step=0.1, format="%.2f", help="Percentual da precipitação em relação à normal climatológica.", key="chuva_pct_normal")
+        chuva_acum = st.number_input("Chuva acumulada (mm)", min_value=0.0, max_value=10000.0, value=100.0, step=0.1, format="%.2f", help="Precipitação acumulada observada no mês de referência.", key="chuva_acum")
+        chuva_pct_normal = st.number_input("Percentual de chuva (%)", min_value=0.0, max_value=10000.0, value=100.0, step=0.1, format="%.2f", help="Percentual da precipitação em relação à normal climatológica.", key="chuva_pct_normal")
         temperatura = st.number_input("Temperatura média (°C)", min_value=-50.0, max_value=60.0, value=25.0, step=0.1, format="%.2f", help="Temperatura média do mês de referência.", key="temperatura")
     with right:
         umidade = st.number_input("Umidade média (%)", min_value=0.0, max_value=100.0, value=70.0, step=0.1, format="%.2f", help="Umidade média do mês de referência, entre 0 e 100%.", key="umidade")
-        chuva_media = st.number_input("Precipitação média (mm)", min_value=0.0, max_value=10000.0, value=100.0, step=0.1, format="%.2f", help="Precipitação média usada pelo modelo.", key="chuva_media")
-        st.caption("A bandeira de origem é fixada internamente em 0 pelo notebook.")
+        chuva_media = st.number_input("Chuva média (mm)", min_value=0.0, max_value=10000.0, value=100.0, step=0.1, format="%.2f", help="Precipitação média usada pelo modelo.", key="chuva_media")
+        #st.caption("A bandeira de origem é fixada internamente em 0 pelo notebook.")
     submitted = st.form_submit_button("Executar modelo", type="primary", use_container_width=True)
 
 if submitted:
