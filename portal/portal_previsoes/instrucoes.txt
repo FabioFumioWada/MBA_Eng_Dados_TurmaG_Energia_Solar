@@ -1,14 +1,14 @@
 PORTAL LOCAL DE PREVISAO DO MODELO 07
 ======================================
 
-A estrutura utiliza um unico arquivo .env em api/python:
+A estrutura utiliza um unico arquivo .env em portal/python:
 
-api/portal/
+portal/portal/
   portal_streamlit.py          Interface web local
   requirements.txt             Dependencias do portal e do cliente
   instrucoes.txt               Este guia
 
-api/python/
+portal/python/
   databricks_previsao.py       Cliente, API local e integracao com Databricks
   .env.example                 Modelo de configuracao sem segredo real
   .env                         Arquivo local unico, nao versionado
@@ -30,7 +30,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 O prompt deverá passar a começar parecido com:
 text
-(.venv) PS D:\MBA_Eng_Dados_TurmaG_Energia_Solar\api\portal>
+(.venv) PS D:\MBA_Eng_Dados_TurmaG_Energia_Solar\portal\portal_previsoes>
 
 3. Instalar as dependências
 python -m pip install -r .\requirements.txt
@@ -58,9 +58,9 @@ CONFIGURACAO DO UNICO .ENV
 --------------------------
 O arquivo de configuracao deve ficar em:
 
-D:\MBA_Eng_Dados_TurmaG_Energia_Solar\api\python\.env
+D:\MBA_Eng_Dados_TurmaG_Energia_Solar\portal\python\.env
 
-A partir da pasta api/portal, copie o modelo:
+A partir da pasta portal/portal, copie o modelo:
 
 Copy-Item ..\python\.env.example ..\python\.env
 
@@ -82,7 +82,7 @@ no Git, no README, no .env.example ou em mensagens.
 
 OPCAO 1: PORTAL STREAMLIT
 -------------------------
-A partir da pasta api/portal:
+A partir da pasta portal/portal:
 
 streamlit run .\portal_streamlit.py
 
@@ -104,7 +104,7 @@ O mes e o ano representam o periodo de referencia. Exemplo:
 
 OPCAO 3: API LOCAL EMBUTIDA
 ---------------------------
-A partir da pasta api/python:
+A partir da pasta portal/python:
 
 python .\databricks_previsao.py --serve
 
@@ -125,8 +125,8 @@ Invoke-RestMethod `
 
 SEGURANCA E GIT
 ---------------
-O unico .env deve ficar em api/python/.env e e ignorado pelo Git.
-O arquivo api/python/.env.example pode ser versionado, pois nao deve conter
-token real. Nao crie outra copia do .env em api/portal.
+O unico .env deve ficar em portal/python/.env e e ignorado pelo Git.
+O arquivo portal/python/.env.example pode ser versionado, pois nao deve conter
+token real. Nao crie outra copia do .env em portal/portal.
 
 Se um token for exposto, revogue-o no Databricks e gere outro.
