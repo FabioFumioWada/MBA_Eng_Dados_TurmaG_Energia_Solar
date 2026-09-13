@@ -1,3 +1,4 @@
 
 # Segredos locais do Databricks
 api/python/.env
+portal/python/.env
