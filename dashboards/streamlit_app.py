@@ -1830,7 +1830,7 @@ with tabs[6]:
           <div class="impact-card">
             <div class="impact-icon">01</div>
             <h4>ESCOPO INICIAL</h4>
-            <p>O projeto começou com foco em geração distribuída e energia solar, explorando as bases disponíveis e a arquitetura de dados.</p>
+            <p>O projeto começou com foco em geração distribuída e energia solar, explorando as bases disponíveis e o problema do setor elétrico.</p>
           </div>
           <div class="impact-card">
             <div class="impact-icon">02</div>
@@ -1874,7 +1874,7 @@ with tabs[6]:
     st.markdown(
         """
         <div class="timeline-list">
-          <div class="timeline-item"><span>SPRINTS INICIAIS</span><p>Definição do problema, fontes de dados, arquitetura e primeiras explorações.</p></div>
+          <div class="timeline-item"><span>SPRINTS INICIAIS</span><p>Definição do problema, fontes de dados e primeiras explorações.</p></div>
           <div class="timeline-item"><span>DADOS E CAMADAS</span><p>Consolidação das fontes na estrutura Raw → Trusted → Refined, com padronização e integração das séries.</p></div>
           <div class="timeline-item"><span>MODELAGEM</span><p>Construção de modelos de classificação, testes de variáveis e validação histórica.</p></div>
           <div class="timeline-item"><span>NOTEBOOK 07</span><p>Consolidação da receita de regressão logística para prever M+1, M+2 e M+3.</p></div>
@@ -1882,12 +1882,6 @@ with tabs[6]:
         </div>
         """,
         unsafe_allow_html=True,
-    )
-
-    st.markdown("### O que não faz parte da previsão")
-    st.info(
-        "A arquitetura de dados é apresentada separadamente na apresentação do grupo. "
-        "Este dashboard concentra a história do problema, os sinais, a modelagem e a decisão preditiva."
     )
 
     st.markdown("### Ferramentas utilizadas")
