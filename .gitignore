@@ -1,3 +1,9 @@
-
 # Segredos locais do Databricks
 api/python/.env
+portal/python/.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
