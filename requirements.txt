@@ -1,3 +1,5 @@
 streamlit
 pandas
 databricks-sql-connector
+numpy
+scikit-learn
