@@ -345,19 +345,6 @@ def create_app(client: DatabricksClient) -> Flask:
 
     return app
 
-def create_app_from_environment() -> Flask:
-    """Cria a aplicação Flask usando as variáveis de ambiente."""
-
-    # Localmente, permite carregar api/python/.env.
-    # No Render, as variáveis serão cadastradas diretamente no painel.
-    env_file = os.environ.get("ENV_FILE", ".env")
-    load_env_file(env_file)
-
-    # No ambiente de produção, nunca solicitar input interativo.
-    config = load_config(prompt_for_token=False)
-    client = DatabricksClient(config)
-
-    return create_app(client)
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
