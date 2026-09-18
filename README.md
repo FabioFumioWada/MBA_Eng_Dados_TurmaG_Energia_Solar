@@ -15,8 +15,8 @@ Ano: 2025/2026
 
 Alunos:
 
-Fábio Fumio Wada - 10741479
 Alberto Oliveira Chaves - 10743782
+Fábio Fumio Wada - 10741479
 Laiane Nascimento Ressurreição - 10739799
 Sweeli Yuriko Alves Suzuki - 10423319
 Tatiane Silva Santos - 10747108
